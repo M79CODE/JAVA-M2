@@ -9,49 +9,49 @@ public class ProvesM2 {
 	//Sentencias del Lenguaje
 	
 	/* Problema 1 
-		Haz un programa que seg˙n el valor de x (un valor entrado por teclado), indique si es mayor que 10 con el mensaje ìdemasiado altoî o menor 
-		que 10 con el mensaje ìdemasiado bajoî. 
+		Haz un programa que seg√∫n el valor de x (un valor entrado por teclado), indique si es mayor que 10 con el mensaje ‚Äúdemasiado alto‚Äù o menor 
+		que 10 con el mensaje ‚Äúdemasiado bajo‚Äù. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int x = 0;
 		do {
-			System.out.print("Introduce un n˙mero: ");
+			System.out.print("Introduce un n√∫mero: ");
 			x = reader.nextInt();
 			if(x>10) {
-				System.out.println("N˙mero demasiado alto.");
+				System.out.println("N√∫mero demasiado alto.");
 			} else if (x<10) {
-				System.out.println("N˙mero demasiado bajo.");
+				System.out.println("N√∫mero demasiado bajo.");
 			}
 		} while (x != 10);
 		
-		System.out.println("°N˙mero 10!");
+		System.out.println("¬°N√∫mero 10!");
 	}
 	*/
 	
 	/* Problema 2 
-		Haz un programa que, seg˙n el dÌa de la semana, nos diga ìa estudiar toca!î o ìpor fin descanso!î
+		Haz un programa que, seg√∫n el d√≠a de la semana, nos diga ‚Äúa estudiar toca!‚Äù o ‚Äúpor fin descanso!‚Äù
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
-		System.out.print("Introduce un dÌa de la semana: ");
+		System.out.print("Introduce un d√≠a de la semana: ");
 		String dia = reader.next().toLowerCase();
 		
-		if(dia.equals("lunes") || dia.equals("martes") || dia.equals("miÈrcoles") || dia.equals("jueves") || dia.equals("viernes")) {
-			System.out.println("°A estudiar toca!");
-		} else if(dia.equals("s·bado") || dia.equals("domingo")) {
-			System.out.println("°Por fÌn descanso!");
+		if(dia.equals("lunes") || dia.equals("martes") || dia.equals("mi√©rcoles") || dia.equals("jueves") || dia.equals("viernes")) {
+			System.out.println("¬°A estudiar toca!");
+		} else if(dia.equals("s√°bado") || dia.equals("domingo")) {
+			System.out.println("¬°Por f√≠n descanso!");
 		}
 	}
 	*/
 	
 	/* Problema 3 
-		Haz un programa que decida, seg˙n el dinero que tengamos, si vamos al videoclub, al cine o nos vamos ìal parqueÖî. 
-		Nota: usa condicionales ìanidadosî.
+		Haz un programa que decida, seg√∫n el dinero que tengamos, si vamos al videoclub, al cine o nos vamos ‚Äúal parque‚Ä¶‚Äù. 
+		Nota: usa condicionales ‚Äúanidados‚Äù.
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
-		System.out.print("øCu·nto dinero tenemos? ");
+		System.out.print("¬øCu√°nto dinero tenemos? ");
 		int dinero = reader.nextInt();
 		
 		if(dinero<5) {
@@ -65,19 +65,19 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 4 
-		Muestra por pantalla el resultado de sumar 5 variables, y dile al usuario ìte has pasado!î si el resultado es > 100. 
+		Muestra por pantalla el resultado de sumar 5 variables, y dile al usuario ‚Äúte has pasado!‚Äù si el resultado es > 100. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int x = 0, numero, suma=0;
 		
 		do {
-			System.out.print("Introduce cantidad n∫ " + (x+1) + ": ");
+			System.out.print("Introduce cantidad n¬∫ " + (x+1) + ": ");
 			numero = reader.nextInt();
 			suma = suma + numero;
 			if(suma>100) {
 				System.out.println("Resultado de la suma: " + suma);
-				System.out.println("°Te has pasado! Fin.");
+				System.out.println("¬°Te has pasado! Fin.");
 				break;
 			}
 			x++;
@@ -93,19 +93,19 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 5 
-		Toma el ejercicio anterior, y muestra por pantalla si el resultado es m˙ltiplo de 2, 3 o 5. 
+		Toma el ejercicio anterior, y muestra por pantalla si el resultado es m√∫ltiplo de 2, 3 o 5. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int x = 0, numero, suma=0;
 		
 		do {
-			System.out.print("Introduce cantidad n∫ " + (x+1) + ": ");
+			System.out.print("Introduce cantidad n¬∫ " + (x+1) + ": ");
 			numero = reader.nextInt();
 			suma = suma + numero;
 			if(suma>100) {
 				System.out.println("Resultado de la suma: " + suma);
-				System.out.println("°Te has pasado!");
+				System.out.println("¬°Te has pasado!");
 				break;
 			}
 			x++;
@@ -118,19 +118,19 @@ public class ProvesM2 {
 			System.out.println("Secuencia incompleta");
 		}
 		
-		if(suma%2 == 0) System.out.println(suma + " es m˙ltiplo de 2.");
-		if(suma%3 == 0) System.out.println(suma + " es m˙ltiplo de 3.");
-		if(suma%5 == 0) System.out.println(suma + " es m˙ltiplo de 5.");
+		if(suma%2 == 0) System.out.println(suma + " es m√∫ltiplo de 2.");
+		if(suma%3 == 0) System.out.println(suma + " es m√∫ltiplo de 3.");
+		if(suma%5 == 0) System.out.println(suma + " es m√∫ltiplo de 5.");
 	}
 	*/
 	
 	/* Problema 6 
-		Presenta un men˙ al usuario donde pueda escoger 5 opciones. Si selecciona cualquiera de ellas, muestra por pantalla: ìhas escogido la opciÛn Xî. 
+		Presenta un men√∫ al usuario donde pueda escoger 5 opciones. Si selecciona cualquiera de ellas, muestra por pantalla: ‚Äúhas escogido la opci√≥n X‚Äù. 
 		Usa un switch. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
-		System.out.print("Introduce una opciÛn [1-5]: ");
+		System.out.print("Introduce una opci√≥n [1-5]: ");
 		int numero = reader.nextInt();
 		
 		switch(numero) {
@@ -145,19 +145,19 @@ public class ProvesM2 {
 		case 5:
 			break;
 		default:
-			System.out.println("°No has seleccionado una opciÛn correcta!");
+			System.out.println("¬°No has seleccionado una opci√≥n correcta!");
 		}
-		System.out.println("Has elegido la opciÛn " + numero + ".");
+		System.out.println("Has elegido la opci√≥n " + numero + ".");
 	}
 	*/
 	
 	/* Problema 7 
-		øQuÈ sucede si quitamos los ìbreakî en el ejercicio anterior? Explica por quÈ. 
-		>> Que no se saldrÌa de la instrucciÛn switch y se ejecutarÌan el resto de casos (case), visualiz·ndose todos los mensajes. 
+		¬øQu√© sucede si quitamos los ‚Äúbreak‚Äù en el ejercicio anterior? Explica por qu√©. 
+		>> Que no se saldr√≠a de la instrucci√≥n switch y se ejecutar√≠an el resto de casos (case), visualiz√°ndose todos los mensajes. 
 	*/
 	
 	/* Problema 8 
-		Haz un bucle que nos muestre todos los n˙meros del 1 al 100.
+		Haz un bucle que nos muestre todos los n√∫meros del 1 al 100.
 	
 	public static void main(String[] args) {
 		for(int i=1; i<=100; i++) {
@@ -178,11 +178,11 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 10 
-		Muestra todos los n˙meros pares que haya entre 3 y 99. Nota: ìno valeî saltar de 2 en 2, debes usar un if dentro de un bucle. 
+		Muestra todos los n√∫meros pares que haya entre 3 y 99. Nota: ‚Äúno vale‚Äù saltar de 2 en 2, debes usar un if dentro de un bucle. 
 	
 	public static void main(String[] args) {
 		int x = 3;
-		System.out.println("Los n˙meros pares entre 3 y 99 son:" + "\n");
+		System.out.println("Los n√∫meros pares entre 3 y 99 son:" + "\n");
 		
 		do {
 			if(x%2 == 0) {
@@ -194,14 +194,14 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 11 
-		øQuÈ diferencia hay entre while y do-while? DemuÈstralo con un ejemplo. (pista: do-while se ejecuta al menos 1 vez) 
+		¬øQu√© diferencia hay entre while y do-while? Demu√©stralo con un ejemplo. (pista: do-while se ejecuta al menos 1 vez) 
 		>> La sentencia while puede realizar entre 0 y n iteraciones. En cambio la sentencia do-while puede realizar entre 1 y n iteraciones, es decir, 
-		como mÌnimo siempre realiza una iteraciÛn al encontrarse la condiciÛn al final del bucle.
+		como m√≠nimo siempre realiza una iteraci√≥n al encontrarse la condici√≥n al final del bucle.
 	*/
 	
 	/* Problema 12 
-		Haz un bucle ìforî de 1 a 5.000, que termine cuando lleguemos a la vuelta 25. 
-		Pista: usa el ìbreakî. 
+		Haz un bucle ‚Äúfor‚Äù de 1 a 5.000, que termine cuando lleguemos a la vuelta 25. 
+		Pista: usa el ‚Äúbreak‚Äù. 
 	
 	public static void main(String[] args) {
 		for(int i=1; i<=5000; i++) {
@@ -214,10 +214,10 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 13 
-		Haz un bucle ìwhileî que nos cuente los n˙meros del 4 al 296. Adem·s, s·ltate todos los n˙meros que sean m˙ltiplos de 5. 
-		Pista: usa el ìcontinueî. 
+		Haz un bucle ‚Äúwhile‚Äù que nos cuente los n√∫meros del 4 al 296. Adem√°s, s√°ltate todos los n√∫meros que sean m√∫ltiplos de 5. 
+		Pista: usa el ‚Äúcontinue‚Äù. 
 	
-	// SoluciÛn 1
+	// Soluci√≥n 1
 	public static void main(String[] args) {
 		int i = 3;
 		while(i <= 296) {
@@ -229,7 +229,7 @@ public class ProvesM2 {
 		}
 	}
 	
-	// SoluciÛn 2
+	// Soluci√≥n 2
 	public static void main(String[] args) {
 		int i = 4;
 		while(i <= 296) {
@@ -242,7 +242,7 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 14 
-		Se pretende escribir un programa que determinar· si un n˙mero es positivo o negativo.
+		Se pretende escribir un programa que determinar√° si un n√∫mero es positivo o negativo.
 		Dos programadores diferentes han escrito dos programas diferentes, Signo1 y Signo2:
 	
 	// Signo 1:
@@ -270,14 +270,14 @@ public class ProvesM2 {
 		}		
 	}
 	*/
-	/* Indica si los dos programas son correctos, si sÛlo lo es uno de ellos, indica cual, o si ninguno de los dos es correcto. Razonad la respuesta. 
-	>> El programa Signo1 est· mal programado porquÈ en cualquier caso dirÌa que el n˙mero tambiÈn es negativo.
-	>> En ambos programas falta (System.out.println("Introduce un n˙mero: ");), para poder recoger el dato introducido por el usuario, que se guarda en 
+	/* Indica si los dos programas son correctos, si s√≥lo lo es uno de ellos, indica cual, o si ninguno de los dos es correcto. Razonad la respuesta. 
+	>> El programa Signo1 est√° mal programado porqu√© en cualquier caso dir√≠a que el n√∫mero tambi√©n es negativo.
+	>> En ambos programas falta (System.out.println("Introduce un n√∫mero: ");), para poder recoger el dato introducido por el usuario, que se guarda en 
 		(int a = reader.nextInt();).
 	*/
 	
 	/* Problema 15 
-		Respeto a los programas Cond2 y Cond3 que se dan a continuaciÛn, responde a las cuestiones siguientes: 
+		Respeto a los programas Cond2 y Cond3 que se dan a continuaci√≥n, responde a las cuestiones siguientes: 
 	
 	// Cond2:
 	public static void main(String[] args) {
@@ -320,25 +320,25 @@ public class ProvesM2 {
 		}
 	}
 	*/
-	/* a) øQuÈ resultado produce Cond2 si se le dan los valores 15 y 78? øY Cond3? 
+	/* a) ¬øQu√© resultado produce Cond2 si se le dan los valores 15 y 78? ¬øY Cond3? 
 		>> Cond2 NO
 		>> Cond3 NO 
 		
-		b) øQuÈ resultado produce Cond2 si se le dan los valores 10 y 22? øY Cond3? 
+		b) ¬øQu√© resultado produce Cond2 si se le dan los valores 10 y 22? ¬øY Cond3? 
 		>> Cond2 SI
 		>> Cond3 SI 
 		
-		c) øQuÈ resultado produce Cond2 si se le dan los valores 17 y 21? øY Cond3? 
+		c) ¬øQu√© resultado produce Cond2 si se le dan los valores 17 y 21? ¬øY Cond3? 
 		>> Cond2 SI
 		>> Cond3 SI 
 		
-		d) øCond2 y Cond3 siempre producen el mismo resultado?, øo no? 
-		>> SÌ. Para que salga ìSIî, los dos n˙meros deben ser pares o los dos deben de ser impares. Para que salga ìNOî, uno de los dos n˙meros debe 
+		d) ¬øCond2 y Cond3 siempre producen el mismo resultado?, ¬øo no? 
+		>> S√≠. Para que salga ‚ÄúSI‚Äù, los dos n√∫meros deben ser pares o los dos deben de ser impares. Para que salga ‚ÄúNO‚Äù, uno de los dos n√∫meros debe 
 			de ser par y el otro impar. 
 	*/
 	
 	/* Problema 16 
-		Respeto al programa que se da a continuaciÛn responde a las cuestiones siguientes: 
+		Respeto al programa que se da a continuaci√≥n responde a las cuestiones siguientes: 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
@@ -371,21 +371,21 @@ public class ProvesM2 {
 		if(qp>qn) {
 			System.out.println("YUPI");
 		}
-		System.out.println("AD…U");
+		System.out.println("AD√âU");
 	}
 	*/
-	/* a) øQuÈ resultado produce si se le dan los valores 10, -23 y 12? 
+	/* a) ¬øQu√© resultado produce si se le dan los valores 10, -23 y 12? 
 		YUPI 
 		ADEU 
-		b) øQuÈ resultado produce si se le dan los valores 3, 7 y -9? 
+		b) ¬øQu√© resultado produce si se le dan los valores 3, 7 y -9? 
 		YUPI 
 		ADEU 
-		c) øEn quÈ circunstancias escribe YUPI antes de escribir ADEU? (øcu·ndo escribe YUPI?) 
-		>> Si los n˙meros positivos superan a los n˙meros negativos entonces se escribir· YUPI. En cualquier caso siempre se escribe ADEU. 
+		c) ¬øEn qu√© circunstancias escribe YUPI antes de escribir ADEU? (¬øcu√°ndo escribe YUPI?) 
+		>> Si los n√∫meros positivos superan a los n√∫meros negativos entonces se escribir√° YUPI. En cualquier caso siempre se escribe ADEU. 
 	*/
 	
 	/* Problema 17 
-		Respeto al siguiente programa que se da a continuaciÛn, responde a las cuestiones siguientes:
+		Respeto al siguiente programa que se da a continuaci√≥n, responde a las cuestiones siguientes:
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
@@ -400,12 +400,12 @@ public class ProvesM2 {
 		cycles = 0;
 		
 		while(cycles != n) {
-			// Checkeamos n para que sea positivo, si fuera negativo °entrarÌamos en un bucle infinito!
+			// Checkeamos n para que sea positivo, si fuera negativo ¬°entrar√≠amos en un bucle infinito!
 			if(n<0) {
-				System.out.println("n no puede ser un n˙mero negativo.");
+				System.out.println("n no puede ser un n√∫mero negativo.");
 				break;
 			}
-			// C·lculo de (a) elevado a la potencia (n).
+			// C√°lculo de (a) elevado a la potencia (n).
 			System.out.print(a + " * " + result);
 			cycles = cycles +1;
 			result = result * a;
@@ -414,28 +414,28 @@ public class ProvesM2 {
 		System.out.println("\n" + "El resultado es " + result + " y se han recorrido " + cycles + " ciclos.");
 	}
 	*/
-	/* 	a) øQuÈ resultado produce si se le dan los valores 5 y 3? 
+	/* 	a) ¬øQu√© resultado produce si se le dan los valores 5 y 3? 
 		>> El resultado es 125. 
 		
-		b) øQuÈ resultado produce si se le dan los valores 2 y 3? 
+		b) ¬øQu√© resultado produce si se le dan los valores 2 y 3? 
 		>> El resultado es 8 
 		
-		c) øQuÈ resultado produce si se le dan los valores 1 y -1? 
-		>> El programa no est· preparado para exponentes negativos. HE aÒadido el condicional para checkear que n sea un n˙mero positivo.
+		c) ¬øQu√© resultado produce si se le dan los valores 1 y -1? 
+		>> El programa no est√° preparado para exponentes negativos. HE a√±adido el condicional para checkear que n sea un n√∫mero positivo.
 		
-		d) øQuÈ es lo que calcula este programa? 
-		>> Realiza la funciÛn potencia (a) elevado a (n). 
+		d) ¬øQu√© es lo que calcula este programa? 
+		>> Realiza la funci√≥n potencia (a) elevado a (n). 
 	*/
 	
 	/* Problema 18 
-		Cuando el programa sea ejecutado, øcu·les ser·n los valores finales de las variables aaa y ccc (que escribir· el programa) si el valor leÌdo 
+		Cuando el programa sea ejecutado, ¬øcu√°les ser√°n los valores finales de las variables aaa y ccc (que escribir√° el programa) si el valor le√≠do 
 		del teclado y asignado a la variable bbb es 10?
 		>> aaa = 10, ccc = 45
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int aaa=0, bbb, ccc=0;
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		bbb = reader.nextInt();
 		
 		while(aaa < bbb) {
@@ -449,7 +449,7 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 19 
-		Respeto al programa que se da a continuaciÛn responde a las cuestiones siguientes:
+		Respeto al programa que se da a continuaci√≥n responde a las cuestiones siguientes:
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
@@ -469,22 +469,22 @@ public class ProvesM2 {
 		System.out.println("El resultado es " + a);
 	}
 	*/
-	/* a) øQuÈ resultado produce si se le dan los valores 2 y 5? 
+	/* a) ¬øQu√© resultado produce si se le dan los valores 2 y 5? 
 		>> El resultado es 1 
 		
-		b) øQuÈ resultado produce si se le dan los valores 14 y 21? 
+		b) ¬øQu√© resultado produce si se le dan los valores 14 y 21? 
 		>> El resultado es 7
 		
-		c) øQuÈ resultado produce si se le dan los valores 57 y 95? 
+		c) ¬øQu√© resultado produce si se le dan los valores 57 y 95? 
 		>> El resultado es 19
 		
-		d) øQuÈ calcula esta funciÛn?
-		>> Realiza el m·ximo com˙n divisor, es el algoritmo de Euclides.
+		d) ¬øQu√© calcula esta funci√≥n?
+		>> Realiza el m√°ximo com√∫n divisor, es el algoritmo de Euclides.
 	*/
 	
 	/* Problema 20 
-		Cuando el siguiente programa sea ejecutado, øCu·les ser·n los valores finales de las variables "ahora" y "suma" si el valor (leÌdo del teclado y 
-		asignado a la variable "stop") es 34? (øquÈ escribe el programa?)
+		Cuando el siguiente programa sea ejecutado, ¬øCu√°les ser√°n los valores finales de las variables "ahora" y "suma" si el valor (le√≠do del teclado y 
+		asignado a la variable "stop") es 34? (¬øqu√© escribe el programa?)
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
@@ -506,13 +506,13 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 21 
-		Respeto al programa que se da a continuaciÛn, responde a las cuestiones siguientes: 
+		Respeto al programa que se da a continuaci√≥n, responde a las cuestiones siguientes: 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int num, f;
 		boolean acabar;
-		System.out.println("Introduce un n˙mero: ");
+		System.out.println("Introduce un n√∫mero: ");
 		num =  reader.nextInt();
 		acabar = (num == 0);
 		f = 1;
@@ -527,59 +527,59 @@ public class ProvesM2 {
 		System.out.println("\n" + "El resultado es: " + f);
 	}
 	*/
-	/* a) øQuÈ resultado produce si se le da el valor 3? 
+	/* a) ¬øQu√© resultado produce si se le da el valor 3? 
 		>> El resultado es: 6 
 		
-		b) øQuÈ resultado produce si se le da el valor 5? 
+		b) ¬øQu√© resultado produce si se le da el valor 5? 
 		>> El resultado es: 120 
 		
-		c) øQuÈ resultado produce si se le da el valor 0? 
+		c) ¬øQu√© resultado produce si se le da el valor 0? 
 		>> El resultado es: 1 
 		
-		d) øQuÈ resultado produce si se le da el valor -1? 
-		>> El resultado es: 0. El programa no est· preparado para calcular 
+		d) ¬øQu√© resultado produce si se le da el valor -1? 
+		>> El resultado es: 0. El programa no est√° preparado para calcular 
 		
-		e) øQue es lo que calcula este programa? 
-		>> Calcula el factorial de un n˙mero 
+		e) ¬øQue es lo que calcula este programa? 
+		>> Calcula el factorial de un n√∫mero 
 	*/
 	
 	/* Problema 22 
-		Si se ejecutara el siguiente fragmento de programa, øcu·les serÌan los valores finales de las siguientes variables: exterior, interior, 
-		sumaGrande y sumaPequeÒa?
+		Si se ejecutara el siguiente fragmento de programa, ¬øcu√°les ser√≠an los valores finales de las siguientes variables: exterior, interior, 
+		sumaGrande y sumaPeque√±a?
 	
 	public static void main(String[] args) {
-		int exterior=2, interior=0, sumaGrande=0, sumaPequeÒa=0;
+		int exterior=2, interior=0, sumaGrande=0, sumaPeque√±a=0;
 		
 		while(exterior < 12) {
 			if(exterior%2 == 0) {
-				sumaPequeÒa = 0;
+				sumaPeque√±a = 0;
 				interior = 5;
 				while(interior <= exterior) {
-					sumaPequeÒa = sumaPequeÒa + interior;
+					sumaPeque√±a = sumaPeque√±a + interior;
 					interior++;
 				}
-				sumaGrande = sumaGrande + sumaPequeÒa;
+				sumaGrande = sumaGrande + sumaPeque√±a;
 			}
 			exterior++;
 		}
 		System.out.println("exterior: " + exterior); // exterior: 12
 		System.out.println("interior: " + interior); // interior: 11
 		System.out.println("sumaGrande: " + sumaGrande); // sumaGrande: 82
-		System.out.println("sumaPequeÒa: " + sumaPequeÒa); // sumaPequeÒa: 45
+		System.out.println("sumaPeque√±a: " + sumaPeque√±a); // sumaPeque√±a: 45
 	}
 	*/
 	
 	/* Problema 23
-	   a) Suponed que cuando el programa se ejecuta, se le suministran, en este orden, los valores 10 y 25 (que ser·n recogidos en las variables 
-	   "primero" y "ultimo", respectivamente). øCu·les ser·n los valores de las variables "actual" y "buenos" al finalizar la ejecuciÛn? (øQuÈ escribir· 
+	   a) Suponed que cuando el programa se ejecuta, se le suministran, en este orden, los valores 10 y 25 (que ser√°n recogidos en las variables 
+	   "primero" y "ultimo", respectivamente). ¬øCu√°les ser√°n los valores de las variables "actual" y "buenos" al finalizar la ejecuci√≥n? (¬øQu√© escribir√° 
 	   el programa al ser ejecutado?)
 	   >> actual=26 
 	   >> buenos=2 
 	   
-	   b) Suponed que los valores suministrados son 25 y 10. øQuÈ valores escribir· el programa? 
-	   >> Se cuelga porque no finaliza la condiciÛn del bucle. El programa obliga a que (primero <= ultimo). 
+	   b) Suponed que los valores suministrados son 25 y 10. ¬øQu√© valores escribir√° el programa? 
+	   >> Se cuelga porque no finaliza la condici√≥n del bucle. El programa obliga a que (primero <= ultimo). 
 	   
-	   c) La condiciÛn (actual != ultimo + 1) que controla la iteraciÛn, øse puede escribir de alguna otra manera que haga el programa m·s robusto? 
+	   c) La condici√≥n (actual != ultimo + 1) que controla la iteraci√≥n, ¬øse puede escribir de alguna otra manera que haga el programa m√°s robusto? 
 	   >> actual < ultimo 
 	
 	public static void main(String[] args) {
@@ -605,15 +605,15 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 24 
-		Cuando el programa sea ejecutado, øcu·les ser·n los valores finales de las variables "ahora" y "suma" (øque escribir· el programa?), si los 
-		valores leÌdos de teclado son 50 (asignado a la variable "terminacion") y 3 (asignado a la variable "control")?: 
+		Cuando el programa sea ejecutado, ¬øcu√°les ser√°n los valores finales de las variables "ahora" y "suma" (¬øque escribir√° el programa?), si los 
+		valores le√≠dos de teclado son 50 (asignado a la variable "terminacion") y 3 (asignado a la variable "control")?: 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int ahora, terminacion, control, suma;
-		System.out.print("Introduce n˙mero para terminaciÛn: ");
+		System.out.print("Introduce n√∫mero para terminaci√≥n: ");
 		terminacion =  reader.nextInt();
-		System.out.print("Introduce n˙mero para control: ");
+		System.out.print("Introduce n√∫mero para control: ");
 		control =  reader.nextInt();
 		ahora = 5;
 		suma = 0;
@@ -636,8 +636,8 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 25 
-		Cuando el programa sea ejecutado, øcu·les ser·n los valores finales de las variables "actualInterior", "actualExterior", "sumaInterior" y 
-		"sumaExterior"?, si el valor leÌdo del teclado y asignado a la variable "finalExterior" es: 
+		Cuando el programa sea ejecutado, ¬øcu√°les ser√°n los valores finales de las variables "actualInterior", "actualExterior", "sumaInterior" y 
+		"sumaExterior"?, si el valor le√≠do del teclado y asignado a la variable "finalExterior" es: 
 		a) 4 
 		>> actualInterior: 4
 		>> actualExterior: 5
@@ -676,14 +676,14 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 26 
-		Escribe un programa que lea dos n˙meros enteros y los vuelva a escribir ordenados de menor a mayor. Por ejemplo, si los n˙meros dados son 4 
-		y 17 el programa tendrÌa que escribir 4, 17; mientras que si los n˙meros dados son 45, 29 el programa tendrÌa que escribir 29, 45. 
+		Escribe un programa que lea dos n√∫meros enteros y los vuelva a escribir ordenados de menor a mayor. Por ejemplo, si los n√∫meros dados son 4 
+		y 17 el programa tendr√≠a que escribir 4, 17; mientras que si los n√∫meros dados son 45, 29 el programa tendr√≠a que escribir 29, 45. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
-		System.out.print("Introduce n˙mero 1: ");
+		System.out.print("Introduce n√∫mero 1: ");
 		int a =  reader.nextInt();
-		System.out.print("Introduce n˙mero 2: ");
+		System.out.print("Introduce n√∫mero 2: ");
 		int b =  reader.nextInt();
 		
 		if(a > b) {
@@ -695,17 +695,17 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 27 
-		Escribe un programa que lea tres n˙meros reales y que, como resultado, escriba cu·ntos de los nombres leÌdos son negativos. Por ejemplo, si los 
-		n˙meros dados son -1.34, 12.56 y 34.76 el programa tendrÌa que escribir 1, mientras que si los n˙meros dados son 4.09, 234.0 y 45.66, entonces 
-		el programa tendrÌa que escribir 0. 
+		Escribe un programa que lea tres n√∫meros reales y que, como resultado, escriba cu√°ntos de los nombres le√≠dos son negativos. Por ejemplo, si los 
+		n√∫meros dados son -1.34, 12.56 y 34.76 el programa tendr√≠a que escribir 1, mientras que si los n√∫meros dados son 4.09, 234.0 y 45.66, entonces 
+		el programa tendr√≠a que escribir 0. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
-		System.out.print("Introduce n˙mero 1: ");
+		System.out.print("Introduce n√∫mero 1: ");
 		int a =  reader.nextInt();
-		System.out.print("Introduce n˙mero 2: ");
+		System.out.print("Introduce n√∫mero 2: ");
 		int b =  reader.nextInt();
-		System.out.print("Introduce n˙mero 3: ");
+		System.out.print("Introduce n√∫mero 3: ");
 		int c =  reader.nextInt();
 		int neg = 0;
 		
@@ -713,34 +713,34 @@ public class ProvesM2 {
 		if(b < 0) neg++;
 		if(c < 0) neg++;
 		
-		System.out.println("Hay " + neg + " n˙meros negativos.");
+		System.out.println("Hay " + neg + " n√∫meros negativos.");
 	}
 	*/
 	
 	/* Problema 28 
-		Escribe un programa que lea tres n˙meros y que escriba todos los que son m·s grandes que el primero. Por ejemplo, si los n˙meros dados fueran 
-		(en este orden) 13, 45, 3, el programa tendrÌa que escribir 45; si los n˙meros dados fuesen 17, 23, 19, el programa tendrÌa que escribir 23, 19. 
-		Y si los n˙meros dados fuesen 19, 19, 20 entonces el programa tendrÌa que escribir 20. 
+		Escribe un programa que lea tres n√∫meros y que escriba todos los que son m√°s grandes que el primero. Por ejemplo, si los n√∫meros dados fueran 
+		(en este orden) 13, 45, 3, el programa tendr√≠a que escribir 45; si los n√∫meros dados fuesen 17, 23, 19, el programa tendr√≠a que escribir 23, 19. 
+		Y si los n√∫meros dados fuesen 19, 19, 20 entonces el programa tendr√≠a que escribir 20. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
-		System.out.print("Introduce n˙mero 1: ");
+		System.out.print("Introduce n√∫mero 1: ");
 		int a =  reader.nextInt();
-		System.out.print("Introduce n˙mero 2: ");
+		System.out.print("Introduce n√∫mero 2: ");
 		int b =  reader.nextInt();
-		System.out.print("Introduce n˙mero 3: ");
+		System.out.print("Introduce n√∫mero 3: ");
 		int c =  reader.nextInt();
 		int bMayorA, cMayorB;
 		
 		if(a < b && b > c) System.out.println(b + " es mayor que " + a);
 		if(a > b && a < c) System.out.println(c + " es mayor que " + a);
 		if(a < b && b < c) System.out.println(b + " y " + c + " son mayores que " + a);
-		System.out.println("El n˙mero mayor es " + Math.max(a, Math.max(b, c)));
+		System.out.println("El n√∫mero mayor es " + Math.max(a, Math.max(b, c)));
 	}
 	*/
 	
 	/* Problema 29 
-		Haz un programa que calcule las siguientes fÛrmulas y muestre los resultados por pantalla:
+		Haz un programa que calcule las siguientes f√≥rmulas y muestre los resultados por pantalla:
 		a) >> a: 5.524001402507504
 		b) >> b: -0.5373883531358327
 		c) >> c: 6.167070654180442
@@ -758,28 +758,28 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 30 
-		Haz un programa que genere tres n˙meros aleatorios de tipo float entre 0 y 9, los muestre por pantalla, diga cu·l es el mayor, cu·l es el 
-		menor y cu·l es su producto.
+		Haz un programa que genere tres n√∫meros aleatorios de tipo float entre 0 y 9, los muestre por pantalla, diga cu√°l es el mayor, cu√°l es el 
+		menor y cu√°l es su producto.
 	
 	public static void main(String[] args) {
 		double a = Math.random() * 9;
 		double b = Math.random() * 9;
 		double c = Math.random() * 9;
 		
-		System.out.println("El primer n˙mero es: " + a);
-		System.out.println("El segundo n˙mero es: " + b);
-		System.out.println("El tercer n˙mero es: " + c);
+		System.out.println("El primer n√∫mero es: " + a);
+		System.out.println("El segundo n√∫mero es: " + b);
+		System.out.println("El tercer n√∫mero es: " + c);
 		
-		System.out.println("\nEl n˙mero mayor es: " + Math.max(a,  Math.max(b,  c)));
-		System.out.println("El n˙mero menor es: " + Math.min(a,  Math.min(b,  c)));
-		System.out.println("El producto de los 3 n˙meros es: " + (a * b * c));
+		System.out.println("\nEl n√∫mero mayor es: " + Math.max(a,  Math.max(b,  c)));
+		System.out.println("El n√∫mero menor es: " + Math.min(a,  Math.min(b,  c)));
+		System.out.println("El producto de los 3 n√∫meros es: " + (a * b * c));
 	}
 	*/
 	
 	/* Problema 31 
-		Vamos a hacer una calculadora muy simple, sÛlo podr· operar con dos n˙meros y realizar una sola operaciÛn. La calculadora pedir· dos n˙meros, 
-		y luego el tipo de operaciÛn que ser· (+) para la suma, (-) para la resta, (*) para la multiplicaciÛn, (/) para la divisiÛn y (%) para el resto.
-		DespuÈs de haber mostrado el resultado por pantalla finalizar· el programa. La calculadora operar· con n˙meros enteros de tipo long. 
+		Vamos a hacer una calculadora muy simple, s√≥lo podr√° operar con dos n√∫meros y realizar una sola operaci√≥n. La calculadora pedir√° dos n√∫meros, 
+		y luego el tipo de operaci√≥n que ser√° (+) para la suma, (-) para la resta, (*) para la multiplicaci√≥n, (/) para la divisi√≥n y (%) para el resto.
+		Despu√©s de haber mostrado el resultado por pantalla finalizar√° el programa. La calculadora operar√° con n√∫meros enteros de tipo long. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
@@ -787,14 +787,14 @@ public class ProvesM2 {
 		String operador;
 		boolean ok = true;
 		
-		System.out.print("Introduce n˙mero 1: ");
+		System.out.print("Introduce n√∫mero 1: ");
 		numero1 =  reader.nextLong();
-		System.out.print("Introduce n˙mero 2: ");
+		System.out.print("Introduce n√∫mero 2: ");
 		numero2 =  reader.nextLong();
 		System.out.print("Introduce el operador: ");
 		operador =  reader.next();
 		
-		// SoluciÛn 1:
+		// Soluci√≥n 1:
 		switch(operador) {
 			case "+":
 				resultado = numero1 + numero2;
@@ -816,7 +816,7 @@ public class ProvesM2 {
 				System.out.println("\nEl operador introducido es incorrecto.");
 		}
 		
-		// SoluciÛn 2:
+		// Soluci√≥n 2:
 		if(operador.equals("+")) resultado = numero1 + numero2;
 		else if(operador.equals("-")) resultado = numero1 - numero2;
 		else if(operador.equals("*")) resultado = numero1 * numero2;
@@ -827,16 +827,16 @@ public class ProvesM2 {
 			System.out.println("\nEl operador introducido es incorrecto.");
 		}
 		
-		//Final com˙n a las 2 soluciones:
-		if(ok) System.out.println("\nLa operaciÛn " + numero1 + " " + operador + " " + numero2 + " es igual a " + resultado);
+		//Final com√∫n a las 2 soluciones:
+		if(ok) System.out.println("\nLa operaci√≥n " + numero1 + " " + operador + " " + numero2 + " es igual a " + resultado);
 	}
 	*/
 	
 	/* Problema 32 
-		Haz que el ordenador se piense un n˙mero del 1 al 100, que el usuario tratar· de adivinar. El ordenador ir· contando el n˙mero de intentos. 
-		Si el usuario falla el n˙mero, el ordenador le dir· si el n˙mero pensado es mayor o menor. Cuando el usuario acierte el n˙mero, el programa le 
-		dar· la enhorabuena y le dir· el n˙mero de intentos que ha necesitado para adivinarlo. Luego el programa, le preguntar· al usuario si quiere 
-		jugar otra partida, en caso afirmativo se continuar· con el juego y en caso contrario se finalizar· el programa.
+		Haz que el ordenador se piense un n√∫mero del 1 al 100, que el usuario tratar√° de adivinar. El ordenador ir√° contando el n√∫mero de intentos. 
+		Si el usuario falla el n√∫mero, el ordenador le dir√° si el n√∫mero pensado es mayor o menor. Cuando el usuario acierte el n√∫mero, el programa le 
+		dar√° la enhorabuena y le dir√° el n√∫mero de intentos que ha necesitado para adivinarlo. Luego el programa, le preguntar√° al usuario si quiere 
+		jugar otra partida, en caso afirmativo se continuar√° con el juego y en caso contrario se finalizar√° el programa.
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
@@ -844,20 +844,20 @@ public class ProvesM2 {
 		int numDado, intentos=0;
 		int numAleatorio = (int)((Math.random()*100) + 1);
 		
-		System.out.println("----°JUEGO ADIVINA UN N⁄MERO!----");
+		System.out.println("----¬°JUEGO ADIVINA UN N√öMERO!----");
 		
 		while(!fin) {
-			System.out.print("\nDime un n˙mero del 1 al 100: ");
+			System.out.print("\nDime un n√∫mero del 1 al 100: ");
 			numDado =  reader.nextInt();
 			intentos++;
 			if(numDado > numAleatorio) {
-				System.out.println("El n˙mero a adivinar es m·s pequeÒo...");
+				System.out.println("El n√∫mero a adivinar es m√°s peque√±o...");
 			} else if(numDado < numAleatorio) {
-				System.out.println("El n˙mero a adivinar es m·s grande...");
+				System.out.println("El n√∫mero a adivinar es m√°s grande...");
 			} else {
-				System.out.println("\n°Enhorabuena! Has acertado el n˙mero.");
-				System.out.println("N∫ de intentos: " + intentos);
-				System.out.println("øQuieres volver a jugar? Pulsa 0 para acabar, o cualquier tecla para volver a jugar.");
+				System.out.println("\n¬°Enhorabuena! Has acertado el n√∫mero.");
+				System.out.println("N¬∫ de intentos: " + intentos);
+				System.out.println("¬øQuieres volver a jugar? Pulsa 0 para acabar, o cualquier tecla para volver a jugar.");
 				
 				int tecla = reader.nextInt();
 				if(tecla == 0) {
@@ -872,141 +872,141 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 33 
-		Escribe un programa que lea 3 n˙meros e indique si alguno de ellos es repetido o no. Por ejemplo, si los n˙meros dados fuesen 3, 5, 8 el 
-		programa tendrÌa que escribir ìNo hay repeticionesî; si los n˙meros dados fuesen -3, 2, -3 el programa tendrÌa que escribir ìHay repeticionesî.
-		Y si los n˙meros dados fuesen 4, 4, 4 el programa tendrÌa que escribir ìHay repeticionesî. 
-		Nota: el programa sÛlo debe escribir ìHay repeticiÛnî o ìNo hay repeticiÛnî una sola vez. 
+		Escribe un programa que lea 3 n√∫meros e indique si alguno de ellos es repetido o no. Por ejemplo, si los n√∫meros dados fuesen 3, 5, 8 el 
+		programa tendr√≠a que escribir ‚ÄúNo hay repeticiones‚Äù; si los n√∫meros dados fuesen -3, 2, -3 el programa tendr√≠a que escribir ‚ÄúHay repeticiones‚Äù.
+		Y si los n√∫meros dados fuesen 4, 4, 4 el programa tendr√≠a que escribir ‚ÄúHay repeticiones‚Äù. 
+		Nota: el programa s√≥lo debe escribir ‚ÄúHay repetici√≥n‚Äù o ‚ÄúNo hay repetici√≥n‚Äù una sola vez. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int a, b, c;
 		
-		System.out.print("Introduce n˙mero 1: ");
+		System.out.print("Introduce n√∫mero 1: ");
 		a =  reader.nextInt();
-		System.out.print("Introduce n˙mero 2: ");
+		System.out.print("Introduce n√∫mero 2: ");
 		b =  reader.nextInt();
-		System.out.print("Introduce n˙mero 3: ");
+		System.out.print("Introduce n√∫mero 3: ");
 		c =  reader.nextInt();
 		
-		if((a == b) || (a == c) || (b == c)) System.out.println("\nHay n˙meros repetidos.");
-		else System.out.println("\nNo hay n˙meros repetidos.");
+		if((a == b) || (a == c) || (b == c)) System.out.println("\nHay n√∫meros repetidos.");
+		else System.out.println("\nNo hay n√∫meros repetidos.");
 	}
 	*/
 	
 	/* Problema 34 
-		Escribe un programa que lea 3 n˙meros enteros y calcule la suma de todos los que son m˙ltiples de 5. Si ninguno de los n˙meros leÌdos es 
-		m˙ltiple de 5, entonces el resultado ha de ser 0. Por ejemplo, si los n˙meros dados son 34, 45 y 30 entonces el resultado ha de ser 75 
-		(45+30=75); si los n˙meros dados son 20, -15 y -5 el resultado ha de ser 0 (20+(-15)+(-5)=0); y si los n˙meros dados son 33, 21 y 19 entonces 
-		el resultado ha de ser 0 (ninguno de los tres es m˙ltiple de 5). 
-		Pista: un n˙mero es m˙ltiplo de 5 si, y sÛlo si, al dividirlo por 5 el resto de esta divisiÛn es 0. 
+		Escribe un programa que lea 3 n√∫meros enteros y calcule la suma de todos los que son m√∫ltiples de 5. Si ninguno de los n√∫meros le√≠dos es 
+		m√∫ltiple de 5, entonces el resultado ha de ser 0. Por ejemplo, si los n√∫meros dados son 34, 45 y 30 entonces el resultado ha de ser 75 
+		(45+30=75); si los n√∫meros dados son 20, -15 y -5 el resultado ha de ser 0 (20+(-15)+(-5)=0); y si los n√∫meros dados son 33, 21 y 19 entonces 
+		el resultado ha de ser 0 (ninguno de los tres es m√∫ltiple de 5). 
+		Pista: un n√∫mero es m√∫ltiplo de 5 si, y s√≥lo si, al dividirlo por 5 el resto de esta divisi√≥n es 0. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int a, b, c, suma=0;
 		
-		System.out.print("Introduce n˙mero 1: ");
+		System.out.print("Introduce n√∫mero 1: ");
 		a =  reader.nextInt();
-		System.out.print("Introduce n˙mero 2: ");
+		System.out.print("Introduce n√∫mero 2: ");
 		b =  reader.nextInt();
-		System.out.print("Introduce n˙mero 3: ");
+		System.out.print("Introduce n√∫mero 3: ");
 		c =  reader.nextInt();
 		
 		if(a%5 == 0) suma += a;
 		if(b%5 == 0) suma += b;
 		if(c%5 == 0) suma += c;
 		
-		System.out.println("\nLa suma de los m˙ltiples de 5 es " + suma);
+		System.out.println("\nLa suma de los m√∫ltiples de 5 es " + suma);
 	}
 	*/
 	
 	/* Problema 35 
-		Igual que en el apartado anterior, pero ahora, si ninguno de los n˙meros dados es m˙ltiple de 5, en lugar de dar resultado 0 el programa tiene 
-		que escribir ìNo hay ning˙n n˙mero m˙ltiplo de 5î.
+		Igual que en el apartado anterior, pero ahora, si ninguno de los n√∫meros dados es m√∫ltiple de 5, en lugar de dar resultado 0 el programa tiene 
+		que escribir ‚ÄúNo hay ning√∫n n√∫mero m√∫ltiplo de 5‚Äù.
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int a, b, c, suma=0;
 		
-		System.out.print("Introduce n˙mero 1: ");
+		System.out.print("Introduce n√∫mero 1: ");
 		a =  reader.nextInt();
-		System.out.print("Introduce n˙mero 2: ");
+		System.out.print("Introduce n√∫mero 2: ");
 		b =  reader.nextInt();
-		System.out.print("Introduce n˙mero 3: ");
+		System.out.print("Introduce n√∫mero 3: ");
 		c =  reader.nextInt();
 		
 		if((a%5 != 0) && (b%5 != 0) && (c%5 != 0)) 
-			System.out.println("\nNo hay ning˙n m˙ltiple de 5.");
+			System.out.println("\nNo hay ning√∫n m√∫ltiple de 5.");
 		else
-			System.out.print("\nHay alg˙n m˙ltiple de 5.");
+			System.out.print("\nHay alg√∫n m√∫ltiple de 5.");
 		
 		if(a%5 == 0) suma += a;
 		if(b%5 == 0) suma += b;
 		if(c%5 == 0) suma += c;
 		
-		if((a%5 ==0) || (b%5 ==0) || (c%5 ==0)) System.out.print(" La suma de los m˙ltiples de 5 es " + suma);
+		if((a%5 ==0) || (b%5 ==0) || (c%5 ==0)) System.out.print(" La suma de los m√∫ltiples de 5 es " + suma);
 		
 	}
 	*/
 	
 	/* Problema 36 
-		Escribe un programa que lea 3 n˙meros enteros y que, despuÈs, haga lo siguiente: 
-		- Si el primer n˙mero es positivo (y mayor que cero) entonces tiene que escribir un mensaje indicando si alguno de los dos n˙meros siguientes 
-		  es m˙ltiple de 7 o no. 
-		- Si el primer n˙mero es negativo entonces tiene que escribir los dos n˙meros siguientes ordenados de mayor a menor. 
-		- Si el primer n˙mero es cero entonces ha de calcular la suma de los valores absolutos de los dos siguientes. 
+		Escribe un programa que lea 3 n√∫meros enteros y que, despu√©s, haga lo siguiente: 
+		- Si el primer n√∫mero es positivo (y mayor que cero) entonces tiene que escribir un mensaje indicando si alguno de los dos n√∫meros siguientes 
+		  es m√∫ltiple de 7 o no. 
+		- Si el primer n√∫mero es negativo entonces tiene que escribir los dos n√∫meros siguientes ordenados de mayor a menor. 
+		- Si el primer n√∫mero es cero entonces ha de calcular la suma de los valores absolutos de los dos siguientes. 
 		
 		NOTA: 
-		Por ejemplo, si los n˙meros dados son 6, 14, 9 el programa tiene que escribir ìAlguno de los dos ˙ltimos es m˙ltiplo de 7î. 
-		Si los n˙meros dados son 1, 18, 24 entonces el programa debe de escribir ìNinguno de los dos ˙ltimos es m˙ltiple de 7. 
-		Si los n˙meros dados son -4, 7, 5 entonces el programa debe de escribir 7, 5. 
-		Y si los n˙meros dados son 0, 3, -4 el programa tiene que escribir 7. 
+		Por ejemplo, si los n√∫meros dados son 6, 14, 9 el programa tiene que escribir ‚ÄúAlguno de los dos √∫ltimos es m√∫ltiplo de 7‚Äù. 
+		Si los n√∫meros dados son 1, 18, 24 entonces el programa debe de escribir ‚ÄúNinguno de los dos √∫ltimos es m√∫ltiple de 7. 
+		Si los n√∫meros dados son -4, 7, 5 entonces el programa debe de escribir 7, 5. 
+		Y si los n√∫meros dados son 0, 3, -4 el programa tiene que escribir 7. 
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int a, b, c, suma=0;
 		
-		System.out.print("Introduce n˙mero 1: ");
+		System.out.print("Introduce n√∫mero 1: ");
 		a =  reader.nextInt();
-		System.out.print("Introduce n˙mero 2: ");
+		System.out.print("Introduce n√∫mero 2: ");
 		b =  reader.nextInt();
-		System.out.print("Introduce n˙mero 3: ");
+		System.out.print("Introduce n√∫mero 3: ");
 		c =  reader.nextInt();
 		
 		if(a > 0) {
 			if((b%7 == 0) || (c%7 == 0)) {
-				System.out.println("\nAlguno de los dos ˙ltimos n˙meros es m˙ltiple de 7.");
+				System.out.println("\nAlguno de los dos √∫ltimos n√∫meros es m√∫ltiple de 7.");
 			} else {
-				System.out.println("\nNinguno de los dos ˙ltimos n˙meros es m˙ltiple de 7.");
+				System.out.println("\nNinguno de los dos √∫ltimos n√∫meros es m√∫ltiple de 7.");
 			}
 		} else if(a<0){
 			if(b < c) System.out.println(c + ", " + b);
 			else System.out.println(b + ", " + c);
 		} else {
-			System.out.println("\nLa suma de los valores absolutos de los dos ˙ltimos n˙meros es " + (Math.abs(b) + Math.abs(c)));
+			System.out.println("\nLa suma de los valores absolutos de los dos √∫ltimos n√∫meros es " + (Math.abs(b) + Math.abs(c)));
 		}
 	}
 	*/
 	
 	/* Problema 37 
-		Escribe un programa que lea 4 n˙meros enteros, sume los pares por un lado y los impares por otro, e indique si la suma de los pares es 
+		Escribe un programa que lea 4 n√∫meros enteros, sume los pares por un lado y los impares por otro, e indique si la suma de los pares es 
 		superior o igual a 4 veces la suma de los impares, o no. 
 		
 		NOTA: 
-		Por ejemplo, si los n˙meros dados son 7, 20, 30, 5 el programa tendrÌa que escribir ìLa suma de los pares supera o es igual a 4 veces la 
-		suma de los imparesî, porque 20+30 >= 4(7+5); si los n˙meros dados fuesen 10, 3, 5, 2 el programa tendrÌa que escribir ìLa suma de los pares 
-		no supera ni es igual a 4 veces la suma de los imparesî, porque 10+2 < 4(3+5).
+		Por ejemplo, si los n√∫meros dados son 7, 20, 30, 5 el programa tendr√≠a que escribir ‚ÄúLa suma de los pares supera o es igual a 4 veces la 
+		suma de los impares‚Äù, porque 20+30 >= 4(7+5); si los n√∫meros dados fuesen 10, 3, 5, 2 el programa tendr√≠a que escribir ‚ÄúLa suma de los pares 
+		no supera ni es igual a 4 veces la suma de los impares‚Äù, porque 10+2 < 4(3+5).
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int a, b, c, d, pares=0, impares=0;
 		
-		System.out.print("Introduce n˙mero 1: ");
+		System.out.print("Introduce n√∫mero 1: ");
 		a =  reader.nextInt();
-		System.out.print("Introduce n˙mero 2: ");
+		System.out.print("Introduce n√∫mero 2: ");
 		b =  reader.nextInt();
-		System.out.print("Introduce n˙mero 3: ");
+		System.out.print("Introduce n√∫mero 3: ");
 		c =  reader.nextInt();
-		System.out.print("Introduce n˙mero 4: ");
+		System.out.print("Introduce n√∫mero 4: ");
 		d =  reader.nextInt();
 		
 		if(a%2 == 0) pares += a;
@@ -1030,20 +1030,20 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 38 
-		Escribe un programa que lea un n˙mero n (n > 0) y escriba en la pantalla todos los n˙meros enteros positivos entre 0 y n (los dos incluidos).
-		Por ejemplo, si el n˙mero que se le da es 7, el resultado tendrÌa que ser: 
+		Escribe un programa que lea un n√∫mero n (n > 0) y escriba en la pantalla todos los n√∫meros enteros positivos entre 0 y n (los dos incluidos).
+		Por ejemplo, si el n√∫mero que se le da es 7, el resultado tendr√≠a que ser: 
 		0 1 2 3 4 5 6 7 
-		El programa no hace falta que verifique si el n˙mero dado es cero o inferior porque supondremos que quiÈn lo introduce lo hace correctamente.
+		El programa no hace falta que verifique si el n√∫mero dado es cero o inferior porque supondremos que qui√©n lo introduce lo hace correctamente.
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int a, i=0;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		a =  reader.nextInt();
 		
 		if(a <= 0) {
-			System.out.println("El n˙mero debe ser mayor que 0.");
+			System.out.println("El n√∫mero debe ser mayor que 0.");
 		} else {
 			while(i <= a) {
 				System.out.print(i + " ");
@@ -1054,19 +1054,19 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 39
-		Igual que el anterior pero separando los n˙meros con comas y poniendo un punto al final (detr·s del ˙ltimo nombre). 
-		Por ejemplo, si el n˙mero dado es 5, el resultado tendrÌa que ser:
+		Igual que el anterior pero separando los n√∫meros con comas y poniendo un punto al final (detr√°s del √∫ltimo nombre). 
+		Por ejemplo, si el n√∫mero dado es 5, el resultado tendr√≠a que ser:
 		0 , 1 , 2 , 3 , 4 , 5 .
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int a, i=0;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		a =  reader.nextInt();
 		
 		if(a <= 0) {
-			System.out.println("El n˙mero debe ser mayor que 0.");
+			System.out.println("El n√∫mero debe ser mayor que 0.");
 		} else {	
 			while(i<=a) {
 				if(i==a) {
@@ -1081,23 +1081,23 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 40
-		Escribe un programa que dados dos n˙meros m y n (m < n) escriba ordenadamente, todos los n˙meros del intervalo [m, n] (m y n incluidos). 
-		Por ejemplo, si los n˙meros dados son -5 y 4, el resultado tendrÌa que ser:
+		Escribe un programa que dados dos n√∫meros m y n (m < n) escriba ordenadamente, todos los n√∫meros del intervalo [m, n] (m y n incluidos). 
+		Por ejemplo, si los n√∫meros dados son -5 y 4, el resultado tendr√≠a que ser:
 		-5 -4 -3 -2 -1 0 1 2 3 4
-		Es necesario que el programa verifique que el primer n˙mero (m) es estrictamente menor que el segundo (n). Si no es asÌ el programa tendrÌa 
-		que escribir un mensaje indicando que el primer n˙mero ha de ser m·s pequeÒo que el segundo.
+		Es necesario que el programa verifique que el primer n√∫mero (m) es estrictamente menor que el segundo (n). Si no es as√≠ el programa tendr√≠a 
+		que escribir un mensaje indicando que el primer n√∫mero ha de ser m√°s peque√±o que el segundo.
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int m, n, i;
 		
 		do {
-			System.out.print("Introduce el n˙mero 1: ");
+			System.out.print("Introduce el n√∫mero 1: ");
 			m =  reader.nextInt();
-			System.out.print("Introduce el n˙mero 2: ");
+			System.out.print("Introduce el n√∫mero 2: ");
 			n =  reader.nextInt();
 			if(m > n) {
-				System.out.println("\nEl n˙mero 1 debe ser menor que el n˙mero 2.\n");
+				System.out.println("\nEl n√∫mero 1 debe ser menor que el n√∫mero 2.\n");
 			}
 		} while (m > n);
 		
@@ -1112,7 +1112,7 @@ public class ProvesM2 {
 	
 	/* Problema 41
 		Igual que en el ejercicio anterior pero en sentido decreciente. 
-		Por ejemplo, si los n˙meros dados son 7 y 15, el resultado tendrÌa que ser:
+		Por ejemplo, si los n√∫meros dados son 7 y 15, el resultado tendr√≠a que ser:
 		15 14 13 12 11 10 9 8 7
 	
 	public static void main(String[] args) {
@@ -1120,12 +1120,12 @@ public class ProvesM2 {
 		int m, n, i;
 		
 		do {
-			System.out.print("Introduce el n˙mero 1: ");
+			System.out.print("Introduce el n√∫mero 1: ");
 			m =  reader.nextInt();
-			System.out.print("Introduce el n˙mero 2: ");
+			System.out.print("Introduce el n√∫mero 2: ");
 			n =  reader.nextInt();
 			if(m > n) {
-				System.out.println("\nEl n˙mero 1 debe ser menor que el n˙mero 2.\n");
+				System.out.println("\nEl n√∫mero 1 debe ser menor que el n√∫mero 2.\n");
 			}
 		} while (m > n);
 		
@@ -1139,12 +1139,12 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 42
-		Escribe un programa que dado un n˙mero entero n escriba la tabla de multiplicar de n. 
-		Por ejemplo, si el n˙mero dado es 7 el resultado tendrÌa que ser:
+		Escribe un programa que dado un n√∫mero entero n escriba la tabla de multiplicar de n. 
+		Por ejemplo, si el n√∫mero dado es 7 el resultado tendr√≠a que ser:
 		7 x 1 = 7
 		7 x 2 = 14
 		7 x 3 = 21
-		Ö
+		‚Ä¶
 		7 x 9 = 63
 		7 x 10 = 70
 	
@@ -1152,7 +1152,7 @@ public class ProvesM2 {
 		Scanner reader = new Scanner(System.in);
 		int n, i;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		for(i=1; i<=10; i++) {
@@ -1162,8 +1162,8 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 43
-		Escribe un programa que lea un n˙mero n (n >= 1) y dibuje en la pantalla un cuadrado de n x n asteriscos (*). 
-		Por ejemplo, si se le da el n˙mero 3 el resultado tendrÌa que ser:
+		Escribe un programa que lea un n√∫mero n (n >= 1) y dibuje en la pantalla un cuadrado de n x n asteriscos (*). 
+		Por ejemplo, si se le da el n√∫mero 3 el resultado tendr√≠a que ser:
 		* * *
 		* * *
 		* * *
@@ -1172,7 +1172,7 @@ public class ProvesM2 {
 		Scanner reader = new Scanner(System.in);
 		int n, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		for(i=0; i<n; i++) {
@@ -1185,24 +1185,24 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 44
-		Escribe un programa que lea un n˙mero n (n >= 1) y dibuje en la pantalla un cuadrado de n x n formado por los n˙meros enteros positivos entre 
+		Escribe un programa que lea un n√∫mero n (n >= 1) y dibuje en la pantalla un cuadrado de n x n formado por los n√∫meros enteros positivos entre 
 		1 y n. 
-		Por ejemplo, si se le da el n˙mero 4 el resultado tendrÌa que ser:
+		Por ejemplo, si se le da el n√∫mero 4 el resultado tendr√≠a que ser:
 		1 1 1 1
 		2 2 2 2
 		3 3 3 3
 		4 4 4 4
-		Si el n˙mero que se le da es negativo (o cero) el programa tendrÌa que escribir un mensaje indicando que el n˙mero dado no es v·lido.
+		Si el n√∫mero que se le da es negativo (o cero) el programa tendr√≠a que escribir un mensaje indicando que el n√∫mero dado no es v√°lido.
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int n, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		if(n<=0) {
-			System.out.println("El n˙mero debe ser positivo y mayor que cero.");
+			System.out.println("El n√∫mero debe ser positivo y mayor que cero.");
 		}
 		
 		for(i=0; i<n; i++) {
@@ -1215,8 +1215,8 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 45
-		Igual que en el ejercicio anterior pero haciendo que en cada fila estÈn los n˙meros entre 1 y n. Por
-		ejemplo, si se le da el n˙mero 5 el resultado tendrÌa que ser:
+		Igual que en el ejercicio anterior pero haciendo que en cada fila est√©n los n√∫meros entre 1 y n. Por
+		ejemplo, si se le da el n√∫mero 5 el resultado tendr√≠a que ser:
 		1 2 3 4 5
 		1 2 3 4 5
 		1 2 3 4 5
@@ -1227,11 +1227,11 @@ public class ProvesM2 {
 		Scanner reader = new Scanner(System.in);
 		int n, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		if(n<=0) {
-			System.out.println("El n˙mero debe ser positivo y mayor que cero.");
+			System.out.println("El n√∫mero debe ser positivo y mayor que cero.");
 		}
 		
 		for(i=0; i<n; i++) {
@@ -1244,24 +1244,24 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 46
-		Escribe un programa que dado un n˙mero n (n >= 1) escriba un tri·ngulo de asteriscos de altura n. 
-		Por ejemplo, si el n˙mero que se le da es 4, el resultado tendrÌa que ser:
+		Escribe un programa que dado un n√∫mero n (n >= 1) escriba un tri√°ngulo de asteriscos de altura n. 
+		Por ejemplo, si el n√∫mero que se le da es 4, el resultado tendr√≠a que ser:
 		*
 		* *
 		* * *
 		* * * *
-		Si el n˙mero que se le da es negativo (o cero) el programa tendrÌa que escribir un mensaje indicando que el n˙mero dado no 
-		es v·lido.
+		Si el n√∫mero que se le da es negativo (o cero) el programa tendr√≠a que escribir un mensaje indicando que el n√∫mero dado no 
+		es v√°lido.
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int n, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		if(n<=0) {
-			System.out.println("El n˙mero debe ser positivo y mayor que cero.");
+			System.out.println("El n√∫mero debe ser positivo y mayor que cero.");
 		}
 		
 		for(i=0; i<n; i++) {
@@ -1274,8 +1274,8 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 47
-		Igual que en el ejercicio anterior pero ahora invirtiendo el tri·ngulo. 
-		Por ejemplo, si el n˙mero que se le da es 3, el resultado tendrÌa que ser:
+		Igual que en el ejercicio anterior pero ahora invirtiendo el tri√°ngulo. 
+		Por ejemplo, si el n√∫mero que se le da es 3, el resultado tendr√≠a que ser:
 		* * *
 		* *
 		*
@@ -1284,11 +1284,11 @@ public class ProvesM2 {
 		Scanner reader = new Scanner(System.in);
 		int n, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		if(n<=0) {
-			System.out.println("El n˙mero debe ser positivo y mayor que cero.");
+			System.out.println("El n√∫mero debe ser positivo y mayor que cero.");
 		}
 		
 		for(i=0; i<n; i++) {
@@ -1301,28 +1301,28 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 48
-		Escribe un programa que lea un n˙mero n (n >= 3) y dibuje en la pantalla el perÌmetro de un cuadrado
-		de n x n formado por los n˙meros enteros positivos entre 1 y n. Por ejemplo, si se le da el n˙mero 4 el
-		resultado tendrÌa que ser algo como esto:
+		Escribe un programa que lea un n√∫mero n (n >= 3) y dibuje en la pantalla el per√≠metro de un cuadrado
+		de n x n formado por los n√∫meros enteros positivos entre 1 y n. Por ejemplo, si se le da el n√∫mero 4 el
+		resultado tendr√≠a que ser algo como esto:
 		
-		SoluciÛn 1:   SoluciÛn 2: 
+		Soluci√≥n 1:   Soluci√≥n 2: 
 		
 		 * * * *      1 1 1 1
 	   	 *     *      2     2
 		 *     *      3     3
 		 * * * *      4 4 4 4
 		
-	// SoluciÛn 1:
+	// Soluci√≥n 1:
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int n, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		if(n<3) {
-			System.out.println("El n˙mero debe ser positivo y mayor o igual a tres.");
+			System.out.println("El n√∫mero debe ser positivo y mayor o igual a tres.");
 		} else {
 			for(i=0; i<n; i++) {
 				for(j=0; j<n; j++) {
@@ -1337,17 +1337,17 @@ public class ProvesM2 {
 		}		
 	}
 	
-	// SoluciÛn 2:
+	// Soluci√≥n 2:
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int n, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		if(n<3) {
-			System.out.println("El n˙mero debe ser positivo y mayor o igual a tres.");
+			System.out.println("El n√∫mero debe ser positivo y mayor o igual a tres.");
 		} else {
 			for(i=0; i<n; i++) {
 				for(j=0; j<n; j++) {
@@ -1364,8 +1364,8 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 49
-		Escribe un programa que dado un n˙mero n (n >= 4) escribe un tri·ngulo de asteriscos de altura n. Por
-		ejemplo, si el n˙mero que se le da es 5, el resultado tendrÌa que ser:
+		Escribe un programa que dado un n√∫mero n (n >= 4) escribe un tri√°ngulo de asteriscos de altura n. Por
+		ejemplo, si el n√∫mero que se le da es 5, el resultado tendr√≠a que ser:
 		*
 		* *
 		*   *
@@ -1376,11 +1376,11 @@ public class ProvesM2 {
 		Scanner reader = new Scanner(System.in);
 		int n, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		if(n<4) {
-			System.out.println("El n˙mero debe ser positivo y mayor o igual a cuatro.");
+			System.out.println("El n√∫mero debe ser positivo y mayor o igual a cuatro.");
 		} else {
 			for(i=0; i<n; i++) {
 				for(j=0; j<=i; j++) {
@@ -1410,11 +1410,11 @@ public class ProvesM2 {
 		Scanner reader = new Scanner(System.in);
 		int num, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		num =  reader.nextInt();
 		
 		if(num<2) {
-			System.out.println("El n˙mero debe ser positivo y mayor o igual a dos.");
+			System.out.println("El n√∫mero debe ser positivo y mayor o igual a dos.");
 		} else {
 			for(i=0; i<num; i++) {
 				for(j=0; j<num; j++) {
@@ -1432,7 +1432,7 @@ public class ProvesM2 {
 	
 	/* Problema 51
 		Escribe un programa que "dibuje" un cuadrado de n x n utilizando el grupo de caracteres "+ -". El valor n se debe de obtener del exterior. 
-		A continuaciÛn se muestra el resultado que el programa tendrÌa que proporcionar para n=4 y para n=6:
+		A continuaci√≥n se muestra el resultado que el programa tendr√≠a que proporcionar para n=4 y para n=6:
 		
 		+ - + -      + - + - + -
 		+ - + -      + - + - + -
@@ -1446,11 +1446,11 @@ public class ProvesM2 {
 		Scanner reader = new Scanner(System.in);
 		int n, i, j;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		
 		if(n<2) {
-			System.out.println("El n˙mero debe ser positivo y mayor o igual a dos.");
+			System.out.println("El n√∫mero debe ser positivo y mayor o igual a dos.");
 		} else {
 			for(i=0; i<n; i++) {
 				for(j=0; j<n; j++) {
@@ -1467,9 +1467,9 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 52
-		Escribe un programa que dibuje un tri·ngulo de n pisos, con el n˙mero de cada piso indicado a la izquierda. Los pisos impares se deben de 
-		hacer con el car·cter * y los pares con el car·cter +. El valor n se debe de obtener del exterior y no se debe de hacer ninguna verificaciÛn. 
-		A continuaciÛn se muestra el resultado que el programa deberÌa de proporcionar para n=4 y para n=5:
+		Escribe un programa que dibuje un tri√°ngulo de n pisos, con el n√∫mero de cada piso indicado a la izquierda. Los pisos impares se deben de 
+		hacer con el car√°cter * y los pares con el car√°cter +. El valor n se debe de obtener del exterior y no se debe de hacer ninguna verificaci√≥n. 
+		A continuaci√≥n se muestra el resultado que el programa deber√≠a de proporcionar para n=4 y para n=5:
 		
 		(1) *                    (1) *
 		(2) + +                  (2) + +
@@ -1483,7 +1483,7 @@ public class ProvesM2 {
 		int n, piso, columna;
 		char ahoraToca;
 		
-		System.out.print("Introduce un n˙mero: ");
+		System.out.print("Introduce un n√∫mero: ");
 		n =  reader.nextInt();
 		piso = 1;
 		
@@ -1508,7 +1508,7 @@ public class ProvesM2 {
 	// Ejercicios de Vectores
 	
 	/* Problema 1
-		Indicar que escribir·n los 3 programas que se dan a continuaciÛn:
+		Indicar que escribir√°n los 3 programas que se dan a continuaci√≥n:
 	
 	public static void main(String[] args) {
 		int t[];
@@ -1577,11 +1577,11 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 2
-		a) Cuando el programa llegue al punto marcado con el comentario // Punto 1 // ; øcu·l ser· el contenido de las tablas tReales y tEnteros?
+		a) Cuando el programa llegue al punto marcado con el comentario // Punto 1 // ; ¬øcu√°l ser√° el contenido de las tablas tReales y tEnteros?
 		>> P1 tEnteros: 1 2 4 7
 		>> P1 tReales: 0.0 10.0 20.0 30.0 40.0 50.0 60.0 70.0
 		
-		b) Cuando el programa llegue al punto marcado con el comentario //Punto2, øCu·l ser· el contenido de las tablas tReales y tEnteros?
+		b) Cuando el programa llegue al punto marcado con el comentario //Punto2, ¬øCu√°l ser√° el contenido de las tablas tReales y tEnteros?
 		>> P2 tEnteros: 1 2 4 7
 		>> P2 tReales: 0.0 11.0 19.0 30.0 41.0 50.0 60.0 69.0
 	
@@ -1648,10 +1648,10 @@ public class ProvesM2 {
 	
 	/* Problema 3
 		Dado el siguiente programa:
-		a) Cuando el programa llegue al punto marcado con el comentario // PUNTO 1, øCu·l ser· el contenido de la tabla tSelec?
+		a) Cuando el programa llegue al punto marcado con el comentario // PUNTO 1, ¬øCu√°l ser√° el contenido de la tabla tSelec?
 		>> 
 		
-		b) Cuando el programa llegue al punto marcado con el comentario //PUNTO 2, øCu·l ser· el contenido de la tabla tSelec?
+		b) Cuando el programa llegue al punto marcado con el comentario //PUNTO 2, ¬øCu√°l ser√° el contenido de la tabla tSelec?
 		>> 
 	
 	public static void main(String[] args) {
@@ -1697,8 +1697,8 @@ public class ProvesM2 {
 		Escribe un programa que dados dos vectores de componentes reales y longitud N, calcule el producto escalar. 
 		Recordad que el producto escalar de (x1, x2, xn) y (y1, y2,..., yn) es x1y1+x2y2+...+ xnyn (suma de los productos de 
 		las componentes).
-		Notas: primero pedir los valores de las componentes del primer vector y despuÈs las del segundo vector. 
-		Las componentes ser·n dadas ordenadamente.
+		Notas: primero pedir los valores de las componentes del primer vector y despu√©s las del segundo vector. 
+		Las componentes ser√°n dadas ordenadamente.
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
@@ -1725,7 +1725,7 @@ public class ProvesM2 {
 	}
 	*/
 	/* Reflexionad sobre la necesidad de utilizar vectores para resolver este problema. Si no se nos pidiera que primero se 
-		obtuvieran las componentes del primer vector y despuÈs las del segundo, y lo pudiÈsemos hacer de otra manera, øserÌa 
+		obtuvieran las componentes del primer vector y despu√©s las del segundo, y lo pudi√©semos hacer de otra manera, ¬øser√≠a 
 		necesario utilizar tablas?
 	
 	public static void main(String[] args) {
@@ -1748,7 +1748,7 @@ public class ProvesM2 {
 	
 	/* Problema 5
 		Escribe un programa que dados dos vectores de componentes reales, de la misma longitud, calcule su producto escalar. 
-		Asumid que ambos vectores est·n completamente llenos y que, por lo tanto, se puede consultar su atributo length para 
+		Asumid que ambos vectores est√°n completamente llenos y que, por lo tanto, se puede consultar su atributo length para 
 		conocer la longitud.
 	
 	public static void main(String[] args) {
@@ -1765,14 +1765,14 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 6
-		Escribe un programa que dado un vector de n˙meros reales (se puede consultar su atributo length) y un valor real v, 
+		Escribe un programa que dado un vector de n√∫meros reales (se puede consultar su atributo length) y un valor real v, 
 		determine si este valor aparece o no en el vector.
 	
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		int vector[] = {1,2,3,4,5,6,7,20,11,22,12};
 		boolean encontrado = false;
-		System.out.print("Introduce el n˙mero a buscar dentro del vector: ");
+		System.out.print("Introduce el n√∫mero a buscar dentro del vector: ");
 		int num = reader.nextInt();
 		int i;
 		
@@ -1784,7 +1784,7 @@ public class ProvesM2 {
 		}
 		
 		if(encontrado) {
-			System.out.println(num + " encontrado en posiciÛn " + i + ".");
+			System.out.println(num + " encontrado en posici√≥n " + i + ".");
 		} else {
 			System.out.println(num + " no encontrado.");
 		}
@@ -1793,7 +1793,7 @@ public class ProvesM2 {
 	
 	/* Problema 7
 		Escribe un programa que dado un vector de enteros totalmente lleno (se puede consultar su atributo length) calcule la 
-		suma de las componentes que son estrictamente superiores a la ˙ltima (que ocupa la posiciÛn length-1).
+		suma de las componentes que son estrictamente superiores a la √∫ltima (que ocupa la posici√≥n length-1).
 	
 	public static void main(String[] args) {
 		int vector[] = {1,2,3,4,5,6,7,20,11,22,12};
@@ -1811,7 +1811,7 @@ public class ProvesM2 {
 	
 	/* Problema 8
 		Escribe un programa que dados dos vectores de enteros de la misma longitud y totalmente llenos determine si son o no 
-		idÈnticos.
+		id√©nticos.
 	
 	public static void main(String[] args) {
 		Vector<Integer> vector1 = new Vector<Integer>(11);
@@ -1839,17 +1839,17 @@ public class ProvesM2 {
 		vector2.add(22);
 		vector2.add(12);
 		
-		System.out.println("øLos vectores vector1 y vector2 son iguales? " + vector1.equals(vector2));
+		System.out.println("¬øLos vectores vector1 y vector2 son iguales? " + vector1.equals(vector2));
 	}
 	*/
 	
 	/* Problema 9
 		Un polinomio de grado N se puede representar como una tabla unidimensional (un vector) de N+1 componentes, de tal 
-		manera que en cada componente se almacene un coeficiente (el coeficiente de grado cero se almacena en la posiciÛn 0, 
-		el de grado 1 se almacena en la posiciÛn 1, etc.) 
+		manera que en cada componente se almacene un coeficiente (el coeficiente de grado cero se almacena en la posici√≥n 0, 
+		el de grado 1 se almacena en la posici√≥n 1, etc.) 
 		Construir un programa que dados los coeficientes de un polinomio P(x) de grado G y un valor real a, calcule el valor 
 		de P(a). 
-		Nota: primero se dar· el valor de G, despuÈs los G+1 coeficientes del polinomio (en orden creciente de grado) y, 
+		Nota: primero se dar√° el valor de G, despu√©s los G+1 coeficientes del polinomio (en orden creciente de grado) y, 
 		finalmente, el valor a.
 	
 	public static void main(String[] args) {
@@ -1876,8 +1876,8 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 10
-		Escribe una funciÛn que dada una matriz cuadrada y de componentes enteros, un n˙mero entero N que indica la dimensiÛn 
-		de la tabla (ser· NxN) y un valor entero f, calcula la suma de los valores que componen la f-esima fila de la matriz.
+		Escribe una funci√≥n que dada una matriz cuadrada y de componentes enteros, un n√∫mero entero N que indica la dimensi√≥n 
+		de la tabla (ser√° NxN) y un valor entero f, calcula la suma de los valores que componen la f-esima fila de la matriz.
 	
 	public static int sumaFila(int matriz[][], int N, int f){
 		int suma = 0;
@@ -1904,9 +1904,9 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 12
-		Escribe una funciÛn que dada una matriz cuadrada de componentes enteros, y un n˙mero entero N que indica la dimensiÛn 
-		de la tabla (ser· NxN) calcule la suma de los valores de la diagonal principal de esta (la diagonal principal es la que
-		va del rincÛn superior izquierdo al rincÛn inferior derecho).
+		Escribe una funci√≥n que dada una matriz cuadrada de componentes enteros, y un n√∫mero entero N que indica la dimensi√≥n 
+		de la tabla (ser√° NxN) calcule la suma de los valores de la diagonal principal de esta (la diagonal principal es la que
+		va del rinc√≥n superior izquierdo al rinc√≥n inferior derecho).
 		
 	public static int sumaDiagonal(int matriz[][], int N){
 		int suma = 0;
@@ -1923,7 +1923,7 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 13
-		Igual que en el problema anterior pero para la otra diagonal (la que va del rincÛn superior derecho al rincÛn inferior
+		Igual que en el problema anterior pero para la otra diagonal (la que va del rinc√≥n superior derecho al rinc√≥n inferior
 		izquierdo).
 		
 	public static int sumaDiagonalInv(int matriz[][], int N){
@@ -1943,10 +1943,10 @@ public class ProvesM2 {
 	
 	
 	/* Problema 14
-		Se dice que una matriz cuadrada es m·gica cuando todas las filas, todas las columnas y las dos diagonales suman lo mismo. 
-		DiseÒad una funciÛn para determinar si una matriz cuadrada es m·gica o no. Utilizad las funciones de los ejercicios anteriores. 
-		La funciÛn recibir· como par·metros la matriz y un entero que indique la dimensiÛn. 
-		El siguiente es un ejemplo de matriz m·gica de 5x5:
+		Se dice que una matriz cuadrada es m√°gica cuando todas las filas, todas las columnas y las dos diagonales suman lo mismo. 
+		Dise√±ad una funci√≥n para determinar si una matriz cuadrada es m√°gica o no. Utilizad las funciones de los ejercicios anteriores. 
+		La funci√≥n recibir√° como par√°metros la matriz y un entero que indique la dimensi√≥n. 
+		El siguiente es un ejemplo de matriz m√°gica de 5x5:
 		
 			23 6 19 2 15
 			10 18 1 14 22
@@ -1957,7 +1957,7 @@ public class ProvesM2 {
 		
 	public static void main(String[] args) {
 		Scanner reader =  new Scanner(System.in);
-		System.out.print("Introduce una dimensiÛn de matriz cuadrada: ");
+		System.out.print("Introduce una dimensi√≥n de matriz cuadrada: ");
 		int N =  reader.nextInt();
 		int matriz[][] = new int [N][N];
 		
@@ -1969,22 +1969,22 @@ public class ProvesM2 {
 		}
 		
 		if(sumaDiagonalInv(matriz, N) != sumaDiagonal(matriz, N)) {
-			System.out.println("Esta matriz no es m·gica.");
+			System.out.println("Esta matriz no es m√°gica.");
 		} else if(sumaDiagonal(matriz, N) != sumaFila(matriz, N, 0)) {
-			System.out.println("Esta matriz no es m·gica.");
+			System.out.println("Esta matriz no es m√°gica.");
 		} else if(sumaFila(matriz, N, 0) != sumaFila(matriz, N, N-1)) {
-			System.out.println("Esta matriz no es m·gica.");
+			System.out.println("Esta matriz no es m√°gica.");
 		} else if(sumaColumna(matriz, N, 0) != sumaFila(matriz, N, N-1)) {
-			System.out.println("Esta matriz no es m·gica.");
+			System.out.println("Esta matriz no es m√°gica.");
 		} else {
-			System.out.println("°Esta matriz es m·gica!");
+			System.out.println("¬°Esta matriz es m√°gica!");
 		}		
 	}
 	*/
 	
 	/* Problema 15
-		Escribe el cÛdigo de una funciÛn que dada una tabla de enteros llena (con todas las posiciones inicializadas), indique si el primer elemento 
-		(aquel que hay en la componente de Ìndice 0) se encuentra repetido o no.
+		Escribe el c√≥digo de una funci√≥n que dada una tabla de enteros llena (con todas las posiciones inicializadas), indique si el primer elemento 
+		(aquel que hay en la componente de √≠ndice 0) se encuentra repetido o no.
 		
 	private static boolean serepiteElPrimero (int[] tabla){
 		int idx;
@@ -2001,7 +2001,7 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 16
-		Haz un programa que lea una lÌnea de texto, y nos diga el n˙mero de vocales que contiene.
+		Haz un programa que lea una l√≠nea de texto, y nos diga el n√∫mero de vocales que contiene.
 	
 	public static void main(String[] args) {
 		Scanner reader =  new Scanner(System.in);
@@ -2021,8 +2021,8 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 17
-		Haz un programa que lea una lÌnea de texto, y nos diga la primera posiciÛn en que aparece la letra ìsî, o ìno apareceî en caso de que no 
-		haya ninguna ìsî.
+		Haz un programa que lea una l√≠nea de texto, y nos diga la primera posici√≥n en que aparece la letra ‚Äús‚Äù, o ‚Äúno aparece‚Äù en caso de que no 
+		haya ninguna ‚Äús‚Äù.
 	
 	public static void main(String[] args) {
 		Scanner reader =  new Scanner(System.in);
@@ -2035,7 +2035,7 @@ public class ProvesM2 {
 			
 			if(z.charAt(x) == 's') {
 				existeS = true;
-				System.out.println("La primera \"s\" se encuentra en la posiciÛn: " + (x+1));
+				System.out.println("La primera \"s\" se encuentra en la posici√≥n: " + (x+1));
 				break;
 			}
 		}
@@ -2047,8 +2047,8 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 18
-		Haz un programa que lea una lÌnea de texto, y la devuelva sustituyendo todas las ìaî por ìeî, las ìeî por ìiî, las ìiî por ìoî y las ìoî 
-		por ìuî y las ìuî por ìaî.
+		Haz un programa que lea una l√≠nea de texto, y la devuelva sustituyendo todas las ‚Äúa‚Äù por ‚Äúe‚Äù, las ‚Äúe‚Äù por ‚Äúi‚Äù, las ‚Äúi‚Äù por ‚Äúo‚Äù y las ‚Äúo‚Äù 
+		por ‚Äúu‚Äù y las ‚Äúu‚Äù por ‚Äúa‚Äù.
 	
 	public static void main(String[] args) {
 		Scanner reader =  new Scanner(System.in);
@@ -2069,8 +2069,8 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 19
-		Haz un programa que lea una serie de nombres separados por comas, de la siguiente manera: Pedro, marta, javier, soniaÖ. 
-		Y que nos genere un array de Strings con todos los nombres, uno en cada posiciÛn del array.
+		Haz un programa que lea una serie de nombres separados por comas, de la siguiente manera: Pedro, marta, javier, sonia‚Ä¶. 
+		Y que nos genere un array de Strings con todos los nombres, uno en cada posici√≥n del array.
 	
 	public static void main(String[] args) {
 		Scanner reader =  new Scanner(System.in);
@@ -2086,16 +2086,16 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 20
-		Lee una lÌnea de texto, y muestra solo el trozo que haya entre el car·cter 5 y el 10. Si no es tan grande, avisa al usuario de que no 
+		Lee una l√≠nea de texto, y muestra solo el trozo que haya entre el car√°cter 5 y el 10. Si no es tan grande, avisa al usuario de que no 
 		puede realizarse.
 	
 	public static void main(String[] args) {
 		Scanner reader =  new Scanner(System.in);
-		System.out.print("Introduce una lÌnea de texto de 10 caracteres mÌnimo: ");
+		System.out.print("Introduce una l√≠nea de texto de 10 caracteres m√≠nimo: ");
 		String z = reader.nextLine();
 		
 		if(z.length()<10) {
-			System.out.println("La lÌnea de texto tienes menos de 10 caracteres.");
+			System.out.println("La l√≠nea de texto tienes menos de 10 caracteres.");
 		} else {
 			System.out.println("Los caracteres de tu frase, entre las posiciones 5 y 10 son: " + (z.substring(5,10)));
 		}
@@ -2103,7 +2103,7 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 21
-		Lee 10 frases del teclado, que guardar·s en una sola variable de tipo StringBuilder. DespuÈs, reemplaza todas las vocales por el sÌmbolo $ 
+		Lee 10 frases del teclado, que guardar√°s en una sola variable de tipo StringBuilder. Despu√©s, reemplaza todas las vocales por el s√≠mbolo $ 
 		y dale la vuelta al resultado final.
 	
 	public static void main(String[] args) {
@@ -2124,13 +2124,13 @@ public class ProvesM2 {
 		}
 		
 		sb.reverse();
-		System.out.println("Las 10 frases escritas al revÈs y sustituyendo las vocales por $, quedan asÌ: ");
+		System.out.println("Las 10 frases escritas al rev√©s y sustituyendo las vocales por $, quedan as√≠: ");
 		System.out.println(sb);
 	}
 	*/
 	
 	/* Problema 22
-		Lee 10 n˙meros dentro de un array tipo int, y muestra el n˙mero mayor de la serie.
+		Lee 10 n√∫meros dentro de un array tipo int, y muestra el n√∫mero mayor de la serie.
 	
 	public static void main(String[] args) {
 		int[] vector = {11, 92, 33, 40, 35, 66, 73, 89, 56, 32};
@@ -2142,12 +2142,12 @@ public class ProvesM2 {
 				Grande = vector[x];
 			}
 		}
-		System.out.println("\nEl valor m·s grande es " + Grande);
+		System.out.println("\nEl valor m√°s grande es " + Grande);
 	}
 	*/
 	
 	/* Problema 23
-		AmplÌa el ejercicio anterior, y calcula tambiÈn la suma total.
+		Ampl√≠a el ejercicio anterior, y calcula tambi√©n la suma total.
 	
 	public static void main(String[] args) {
 		int[] vector = {11, 92, 33, 40, 35, 66, 73, 89, 56, 32};
@@ -2161,13 +2161,13 @@ public class ProvesM2 {
 				Grande = vector[x];
 			}
 		}
-		System.out.println("\nEl valor m·s grande es " + Grande);
+		System.out.println("\nEl valor m√°s grande es " + Grande);
 		System.out.println("La suma de los valores es " + suma);
 	}
 	*/
 	
 	/* Problema 24
-		Lee 9 n˙meros por teclado y gu·rdalos en una matriz de 2 dimensiones de 3x3. Usa para ello 2 bucles for anidados.
+		Lee 9 n√∫meros por teclado y gu√°rdalos en una matriz de 2 dimensiones de 3x3. Usa para ello 2 bucles for anidados.
 	
 	public static void main(String[] args) {
 		Scanner sc =  new Scanner(System.in);
@@ -2191,50 +2191,502 @@ public class ProvesM2 {
 	*/
 	
 	/* Problema 25
-		Haz un programa que lea una fecha por teclado, y nos indique los dÌas que faltan (o que han pasado) hasta la fecha actual. 
+		Haz un programa que lea una fecha por teclado, y nos indique los d√≠as que faltan (o que han pasado) hasta la fecha actual. 
 		Utiliza para ello la clase Calendar.
-	*/
+	
 	public static void main(String[] args) {
 		Calendar cal1 = Calendar.getInstance();
 		int year = cal1.get(Calendar.YEAR);
 		int month = cal1.get(Calendar.MONTH);
 		int date = cal1.get(Calendar.DATE);
 		
-		System.out.println("AÒo actual: " + year);
-		System.out.println("Mes actual: " + (month + 1)); // Hay que sumar 1 al mes ya que el mÈtodo toma Enero = 0
-		System.out.println("DÌa actual: " + date);
+		System.out.println("A√±o actual: " + year);
+		System.out.println("Mes actual: " + (month + 1)); // Hay que sumar 1 al mes ya que el m√©todo toma Enero = 0
+		System.out.println("D√≠a actual: " + date);
 		
 		Scanner sc =  new Scanner(System.in);
-		int tuAÒo, tuMes, tuDÌa;
+		int tuA√±o, tuMes, tuD√≠a;
 		Calendar cal2 = Calendar.getInstance();
-		System.out.println("Introduce tu aÒo de nacimiento  en formato YYYY: ");
-		tuAÒo = sc.nextInt();
+		System.out.println("Introduce tu a√±o de nacimiento  en formato YYYY: ");
+		tuA√±o = sc.nextInt();
 		System.out.println("Introduce tu mes de nacimiento  en formato MM: ");
 		tuMes = (sc.nextInt() - 1); // Hay que restar 1 para que luego al calcular los milisegundos los calcule en el mes correcto!
-		System.out.println("Introduce tu dÌa de nacimiento  en formato DD: ");
-		tuDÌa = sc.nextInt();
+		System.out.println("Introduce tu d√≠a de nacimiento  en formato DD: ");
+		tuD√≠a = sc.nextInt();
 		
-		cal2.set(tuAÒo, tuMes, tuDÌa);
+		cal2.set(tuA√±o, tuMes, tuD√≠a);
 		// Diferencia en milisegundos
 		long diff = (cal1.getTimeInMillis() - cal2.getTimeInMillis()) / (1000*3600*24);
-		System.out.println("Hay " + diff + " dÌas de diferencia");
+		System.out.println("Hay " + diff + " d√≠as de diferencia");
+	}
+	*/
+	
+	/* Problema 26
+		Tendr√°s que hacer un programa que te pida dos fechas, y te muestre el intervalo en d√≠as entre ambas. Comprueba que la primera fecha sea 
+		anterior a la segunda. Para realizar este programa utiliza las clases Date y Calendar. Tambi√©n crea un paquete llamado fecha que contenga 
+		una clase llamada ControlDeFecha, esta clase debe albergar un m√©todo llamado getDias() que devolver√° el n√∫mero de d√≠as entre dos fechas, 
+		usa este m√©todo en el programa.
+	
+	public static void main(String[] args) {
+		SimpleDateFormat sdtf = new SimpleDateFormat("dd-MM-yyy");
+		String fecha1 = "";
+		String fecha2 = "";
+		Scanner sc =  new Scanner(System.in);
+		Date dt1 = new Date();
+		Date dt2 = new Date();
+		boolean ok = false;
+		
+		do {
+			try {
+				System.out.println("Introduce una primera fecha (dd-MM-yyyy): ");
+				fecha1 = sc.next();
+				dt1 = sdtf.parse(fecha1);
+				System.out.println("Introduce una segunda fecha posterior a la anterior (dd-MM-yyyy): ");
+				fecha2 = sc.next();
+				dt2 = sdtf.parse(fecha2);
+				
+				if (dt2.after(dt1)) ok = true;
+				else System.out.println("¬°Esta fecha no es posterior a la anterior!");
+				
+			} catch (ParseException e) {
+				System.out.println("Entrada de fecha no v√°lida: " + e.getMessage());
+			}
+		} while(!ok);
+		
+		ControlDeFecha diferDias = new ControlDeFecha(dt1, dt2);
+		System.out.println("La diferencia entre las fechas " + fecha1 + " y " + fecha2 + " es de " + diferDias.getDias() + " d√≠as.");
 	}
 	
+	public static class ControlDeFecha{
+		Date fechaAntigua, fechaActual;
+		
+		public ControlDeFecha(Date fechAnt, Date fechNue) {
+			this.fechaAntigua = fechAnt;
+			this.fechaActual = fechNue;
+		}
+		
+		public long getDias() {
+			long difer = fechaActual.getTime() - fechaAntigua.getTime();
+			long nDias = difer / (1000*60*60*24);
+			return nDias;
+		}
+	}
+	*/
 	
+	// EJERCICIOS DE COLECCIONES
+	// *************************
 	
+	/* PROBLEMA 1 ‚Äì Arrays est√°ticos de String
+	Veremos las principales propiedades de un array est√°tico de strings:
+	a) Crea el array de strings llamado fruits, formado por las cadenas: Pineapple, Apple, Orange y Banana.
 	
+	public static void main(String[] args) {
+		String[] fruits = new String[] {"Pineapple", "Apple", "Orange", "Banana"};
+	}
+	*/
+	/* b) Indica dos formas de mostrar los elementos de un array de strings:
 	
+	public static void main(String[] args) {
+		String[] fruits = new String[] {"Pineapple", "Apple", "Orange", "Banana"};
+		
+		// M√©todo for cl√°sico:
+		for (int i=0; i<fruits.length; i++) {
+			System.out.println(fruits[i]);
+		}
+		
+		System.out.println();
+		
+		// M√©todo foreach desde java 8:
+		for (String temp : fruits) {
+			System.out.println(temp);
+		}
+	}
+	*/
+	/* c) ¬øC√≥mo quedan almacenados los elementos dentro de un array est√°tico?
+		  >> Los arrays est√°ticos siempre se han indexado por n√∫meros, donde en la posici√≥n 0 encontraremos el primer elemento, y en la posici√≥n 
+			n-1 encontraremos el √∫ltimo elemento, siendo n la longitud del array.
+			En el array fruits anterior tenemos que la 1¬∫ componente es fruits[0] =‚ÄùPineapple‚Äù, la 2¬∫ componente fruits[1] =‚ÄùApple‚Äù, la 3¬∫ 
+			componente es fruits[2] =‚ÄùOrange‚Äù y la √∫ltima componente es fruits[3] =‚ÄùBanana‚Äù.
+	   d) ¬øExiste alguna forma de eliminar o agregar un elemento de un array est√°tico de strings o de un array en general?
+		  >> No hay un m√©todo espec√≠fico para ello. En los √∫ltimos a√±os han salido librer√≠as que resuelven esta problem√°tica, como por ejemplo:
+			- ArrayUtils.remove >> de las librer√≠as Apache Commons library
+			- System.arraycopy(src, i + 1, newArray, i, newArray.length - i);
+			
+			No obstante la idea cl√°sica para esto siempre ha pasado por crear otra estructura de menor tama√±o e ir copiando los elementos que 
+			interesen:
+			
+			String[] fruits2 = new String[fruits.length-1];
+			int indiceABorrar = 2;
+			for (int i=0, j=0; i>fruits.length; i++) {
+				if (i != indiceABorrar) {
+					fruits2[j++] = fruits[i];
+				}
+			}
+			
+			Por supuesto la mejor idea en caso de que se quieran eliminar elementos, es la de utilizar estructuras de almacenamiento din√°mico, 
+			cuyos objetos se puedan borrar y agregar sin problemas, y evitar los array est√°ticos. Cuando se crea un array est√°tico se hace por una 
+			determinada longitud que no se puede modificar en un futuro.
+	*/
+	/* e) Ordena el array de strings alfab√©ticamente mediante el m√©todo est√°tico sort de Arrays.
 	
+	public static void main(String[] args) {
+		String[] fruits = new String[] {"Pineapple", "Apple", "Orange", "Banana"};
+		Arrays.sort(fruits);
+		
+		for (String temp : fruits) {
+			System.out.println(temp);
+		}
+	}
+	*/
+	/* f) Define un array de 5 strings e introduce los 4 elementos anteriores:
+	   g) Realiza la ordenaci√≥n del array anterior ¬øQu√© ocurre?
+	   >> Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "pivot" is null
+	   	  Por defecto Java inicializa los strings de un array a null. Si se intenta ordenar un array de strings con un elemento null, la ordenaci√≥n 
+	   	  falla.
 	
+	public static void main(String[] args) {
+		String[] fruits = new String[5];
+		fruits[0] = "Pineapple";
+		fruits[1] = "Appple";
+		fruits[2] = "Orange";
+		fruits[3] = "Banana";
+		
+		Arrays.sort(fruits);
+		
+		for (String temp : fruits) {
+			System.out.println(temp);
+		}
+	}
+	*/
 	
+	/* h) ¬øC√≥mo se puede corregir el problema?
+	   >> A√±adiendo la √∫ltima componente vac√≠a para evitar el Null
 	
+	public static void main(String[] args) {
+		String[] fruits = new String[5];
+		fruits[0] = "Pineapple";
+		fruits[1] = "Appple";
+		fruits[2] = "Orange";
+		fruits[3] = "Banana";
+		fruits[4] = "";
+		
+		Arrays.sort(fruits);
+		
+		for (String temp : fruits) {
+			System.out.println(temp);
+		}
+	}
+	*/
 	
+	/* PROBLEMA 2 ‚Äì Array est√°tico de enteros
+		Veremos c√≥mo funciona un array est√°tico de enteros:
+		a) Crea un array de enteros llamado numeros, formado por 40, 20, 50, 70, 10:
 	
+	public static void main(String[] args) {
+		int[] numeros = new int[] {40,20,50,70,10};
+	}
+	*/
+	/* b) Ordena el array de enteros mediante el m√©todo est√°tico sort de la clase Arrays.
 	
+	public static void main(String[] args) {
+		int[] numeros = new int[] {40,20,50,70,10};
+		
+	Arrays.sort(numeros);
+			
+			for (int temp : numeros) {
+				System.out.println(temp);
+			}
+	}
+	*/
+	/* c) Define un array est√°tico de 6 enteros e introduce los 5 elementos anteriores:
+	   d) Realiza la ordenaci√≥n num√©rica de este array de enteros. ¬øOcurre alg√∫n error?
+	   >> Por defecto Java inicializa los enteros de un array a 0. La ordenaci√≥n de un array de enteros no fallara porque los enteros no pueden 
+	      ser nulos.
 	
+	public static void main(String[] args) {
+		int[] numeros = new int[6];
+		numeros[0] = 40;
+		numeros[1] = 20;
+		numeros[2] = 50;
+		numeros[3] = 70;
+		numeros[4] = 10;
+		numeros[5] = 0;
+		
+	Arrays.sort(numeros);
+			
+			for (int temp : numeros) {
+				System.out.println(temp);
+			}
+	}
+	*/
 	
+	/* PROBLEMA 3 ‚Äì M√©todos del objeto Object de Java
+		a) ¬øQue es la clase Object de Java?
+		>> La clase Object es la clase base de la cual heredan todos los objetos de java. Aunque cuando creamos una clase no se suele poner.
+		
+		public class Producto extends Object{
+			private int code;
+			private double precioEuros;
+			private String nombre;
+		}
+		
+		b) ¬øCu√°les son los m√©todos de la clase Object?
+		>> Toda clase de Java incorpora una serie de m√©todos heredados de la clase Object:
+			‚Ä¢ public boolean equals(Object o); >> La implementaci√≥n por defecto de este m√©todo devuelve true si y solo si o==this (siendo this la 
+			  referencia al objeto que contiene el m√©todo equals en ejecuci√≥n). En otras palabras, devuelve true solo si o y this referencian a un 
+			  √∫nico objeto (referencian la misma zona de memoria). Lo crea eclipse.
+			‚Ä¢ public int hashCode(); >> Este m√©todo devuelve un valor int que se calcula a partir de los contenidos del objeto. En el caso de los 
+			  objetos String este entero est√° relacionado con la cadena de caracteres que forma dicho String. Si dos objetos son iguales seg√∫n el 
+			  m√©todo equals() antes mencionado, sus hashCode() DEBEN ser iguales. Lo contrario no tiene por qu√© pasar. Tener una definici√≥n 
+			  consistente de estos dos m√©todos es fundamental a la hora de introducir objetos en conjuntos HashSet.
+			‚Ä¢ public Class<?> getClass(); >> Devuelve la clase a la que pertenece el objeto
+			‚Ä¢ public void notify(); >> Se usan en threads
+			‚Ä¢ public void notifyAll(); >> Se usan en threads
+			‚Ä¢ public String toString(); >> Devuelve un string explicando los elementos de la clase.
+			‚Ä¢ public void wait(); >> Se usan en threads
+			‚Ä¢ public void wait(long timeout); >> Se usan en threads
+			‚Ä¢ public void wait(long timeout, int nanos); >> Se usan en threads	
+	 */
+//}
+
+// Los ejercicios siguientes, aunque hechos a continuaci√≥n para no generar otro archivo, deber√≠an ser codificados en el archivo Habitacion.java, ya 
+// que el nombre de la clase y el nombre del archivo deben coincidir.
+
+	/* PROBLEMA 4 ‚Äì Array de Objetos
+		a) Crea la clase Habitacion, con los siguientes atributos y constructores: String name, int id.
 	
+	public class Habitacion {
+		// Atributos
+		private String name;
+		private int id;
+		
+		public Habitacion() {
+		}
+		
+		public Habitacion(String name, int id) {
+			this.name = name;
+			this.id = id;
+		}
+	}
+	*/
+	/* b) Crea un array est√°tico de 5 objetos Habitacion:
 	
+	public static void main(String[] args) {
+		Habitacion[] habitacionesArray = {
+			new Habitacion("James", 20),
+			new Habitacion("Mary", 10),
+			new Habitacion("John", 80),
+			new Habitacion("Amanda", 40),
+			new Habitacion("Charles", 30)
+		};
+	}	
+	*/
+	/* c) Imprime el array de habitaciones anterior ¬øQu√© ocurre? ¬øQu√© se imprime?
+	   >> Se imprime la direcci√≥n de memoria de cada objeto, puesto que no est√° definido el m√©todo toString en la clase Habitacion.
+	
+public class Habitacion {
+	// Atributos
+	private String name;
+	private int id;
+	
+	public Habitacion() {
+	}
+	
+	public Habitacion(String name, int id) {
+		this.name = name;
+		this.id = id;
+	}
+	
+	public static void main(String[] args) {
+		Habitacion[] habitacionesArray = {
+			new Habitacion("James", 20),
+			new Habitacion("Mary", 10),
+			new Habitacion("John", 80),
+			new Habitacion("Amanda", 40),
+			new Habitacion("Charles", 30)
+		};
+		
+		for (int i=0; i<habitacionesArray.length; i++) {
+			System.out.println(habitacionesArray[i]);
+		}
+		
+		for(Habitacion temp : habitacionesArray) {
+			System.out.println(temp);		
+		}
+	}
+}
+	*/
+	/* d) Define el m√©todo toString en la clase Habitacion. Utiliza el wizard de eclipse: bot√≥n derecho >> Source >> Generate toString()...
+	   e) Vuelve a mostrar el contenido del array est√°tico de habitaciones.
+	   f) Realiza la ordenaci√≥n del array anterior mediante Arrays.sort. ¬øQu√© ocurre?
+	   >> Exception in thread "main" java.lang.ClassCastException: ordena.Habitacion cannot be cast to java.lang.Comparable
+	      Para ordenar un array de objetos es necesario que el objeto contenido implemente la interfaz Comparable.
+	
+public class Habitacion {
+	// Atributos
+	private String name;
+	private int id;
+	
+	public Habitacion() {
+	}
+	
+	public Habitacion(String name, int id) {
+		this.name = name;
+		this.id = id;
+	}
+	
+	@Override
+	public String toString() {
+		return "Habitacion [name=" + name + ", id=" + id + "]";
+	}
+	
+	public static void main(String[] args) {
+		Habitacion[] habitacionesArray = {
+			new Habitacion("James", 20),
+			new Habitacion("Mary", 10),
+			new Habitacion("John", 80),
+			new Habitacion("Amanda", 40),
+			new Habitacion("Charles", 30)
+		};
+		
+		for (int i=0; i<habitacionesArray.length; i++) {
+			System.out.println(habitacionesArray[i]);
+		}
+		
+		Arrays.sort(habitacionesArray);
+		
+		for(Habitacion temp : habitacionesArray) {
+			System.out.println(temp);		
+		}
+	}
+}
+	 */
+
+	/* g) Implementa la interfaz comparable en la clase Habitacion. Implementa el m√©todo compareTo de esta interfaz, de manera que permita ordenar 
+	   por el nombre de la Habitacion.
+	   >> La interfaz Comparable sirve para ordenar un array est√°tico o din√°mico de objetos. Se implementa s√≥lo dentro de la clase y obliga a 
+	      definir el m√©todo compareTo. Este m√©todo sirve tanto para definir una ordenaci√≥n por atributos enteros como de tipo strings. Esta operativa 
+	      obliga a definir los t√≠picos getters and setters de la clase.
+	   
+	   h) Prueba de ejecutar la ordenaci√≥n y comprueba el resultado:
+	   >> Habitacion [name=Amanda, id=40]
+	      Habitacion [name=Charles, id=30]
+	      Habitacion [name=James, id=20]
+	      Habitacion [name=John, id=80]
+	      Habitacion [name=Mary, id=10]
+	
+public class Habitacion implements Comparable<Habitacion> {
+	// Atributos
+	private String name;
+	private int id;
+	
+	public Habitacion() {
+	}
+	
+	public Habitacion(String name, int id) {
+		this.name = name;
+		this.id = id;
+	}
+	
+	@Override
+	public int compareTo(Habitacion o) {
+		return this.getName().compareTo(o.getName());
+	}
+	
+	@Override
+	public String toString() {
+		return "Habitacion [name=" + name + ", id=" + id + "]";
+	}
+	
+	public static void main(String[] args) {
+		Habitacion[] habitacionesArray = {
+			new Habitacion("James", 20),
+			new Habitacion("Mary", 10),
+			new Habitacion("John", 80),
+			new Habitacion("Amanda", 40),
+			new Habitacion("Charles", 30)
+		};
+		
+		for (int i=0; i<habitacionesArray.length; i++) {
+			System.out.println(habitacionesArray[i]);
+		}
+		
+		Arrays.sort(habitacionesArray);
+		
+		for(Habitacion temp : habitacionesArray) {
+			System.out.println(temp);		
+		}
+	}
+}
+	*/
+	/* i) Modifica el m√©todo compareTo para realizar la ordenaci√≥n del array est√°tico de habitaciones seg√∫n su atributo entero id.
+	      Hay que crear el m√©todo getId().
+
+public class Habitacion implements Comparable<Habitacion> {
+	// Atributos
+	private String name;
+	private int id;
+	
+	public Habitacion() {
+	}
+	
+	public Habitacion(String name, int id) {
+		this.name = name;
+		this.id = id;
+	}
+	
+	@Override
+	public int compareTo(Habitacion o) {
+		return this.getId() - o.getId();
+	}
+	
+	private int getId() {
+		return 0;
+	}
+
+	@Override
+	public String toString() {
+		return "Habitacion [name=" + name + ", id=" + id + "]";
+	}
+	
+	public static void main(String[] args) {
+		Habitacion[] habitacionesArray = {
+			new Habitacion("James", 20),
+			new Habitacion("Mary", 10),
+			new Habitacion("John", 80),
+			new Habitacion("Amanda", 40),
+			new Habitacion("Charles", 30)
+		};
+		
+		for (int i=0; i<habitacionesArray.length; i++) {
+			System.out.println(habitacionesArray[i]);
+		}
+		
+		Arrays.sort(habitacionesArray);
+		
+		for(Habitacion temp : habitacionesArray) {
+			System.out.println(temp);		
+		}
+	}
+}
+	*/
+	/* j) ¬øExiste alg√∫n mecanismo que permita una ordenaci√≥n puntual de un array por un criterio diferente al indicado en el m√©todo compareTo de la 
+	      interfaz Comparable, sin tocar naturalmente la clase contenedora?
+	   >> La interfaz Comparator permite definir un nuevo criterio de ordenaci√≥n puntual dentro de Arrays.sort, sin modificar internamente la clase
+		  contenedora.
+		  Ambas interfaces permiten ordenar por atributos enteros y/o strings. La diferencia radica en que Comparable es interna a la clase y Comparator se
+		define externo a la clase y de forma puntual.
+
+	      Arrays.sort(habitacionesArray, new Comparator<Habitacion>() {
+		      @Override
+		      public int compare(Habitacion first, Habitacion second) {
+		      	  return first.getName().compareTo(second.getName());
+		      }
+	      });
+		
+		  for(Habitacion temp : habitacionesArray) {		  	  
+			  System.out.println(temp);		
+		  }
+	*/
 	
 
-}
