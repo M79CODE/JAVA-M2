@@ -284,26 +284,28 @@ public class M2 {
 		int hour = dameHora();
 		int minutes = dameMinutos();
 		int seconds = dameSegundos();
+		
 		while(true) {
-	    Thread.sleep(1000);
-	    seconds++;
+		    seconds++;
 
-	    if (seconds == 60) {
-		minutes++;
-		seconds = 0;
-	    }
+		    if (seconds == 60) {
+			minutes++;
+			seconds = 0;
+		    }
 
-	    if (minutes == 60) {
-		hour++;
-		minutes = 0;
-	    }
+		    if (minutes == 60) {
+			hour++;
+			minutes = 0;
+		    }
 
-	    if (hour == 24) {
-		hour = 0;
-	    }
+		    if (hour == 24) {
+			hour = 0;
+		    }
 
-	    System.out.println(twoDigits(hour) + ":" + twoDigits(minutes)+ ":" + twoDigits(seconds));
-	}	
+		    System.out.println(twoDigits(hour) + ":" + twoDigits(minutes)+ ":" + twoDigits(seconds));
+			
+		    Thread.sleep(1000);
+		}	
 	}
 
 	public static int dameHora() {
